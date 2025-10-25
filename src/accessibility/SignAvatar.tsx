@@ -1,6 +1,6 @@
-import { useRef, useEffect, Suspense } from 'react'
+import { useRef, useEffect, Suspense, useState } from 'react'
 import { Canvas, useFrame } from '@react-three/fiber'
-import { OrbitControls, useGLTF, useAnimations } from '@react-three/drei'
+import { OrbitControls } from '@react-three/drei'
 import * as THREE from 'three'
 import { motion } from 'framer-motion'
 
@@ -86,7 +86,7 @@ function AvatarModel({ animation }: { animation: string }) {
 
 // Main Avatar Component
 const SignAvatar = ({ message, isActive }: SignAvatarProps) => {
-  const [currentAnimation, setCurrentAnimation] = React.useState('idle')
+  const [currentAnimation, setCurrentAnimation] = useState('idle')
 
   useEffect(() => {
     if (!isActive) {

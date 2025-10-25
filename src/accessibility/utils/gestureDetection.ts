@@ -107,10 +107,10 @@ function mapToASLAlphabet(
 ): GestureResult {
   const [thumb, index, middle, ring, pinky] = fingerStates
   
-  // Calculate hand orientation and other features
-  const palmBase = landmarks[0]
-  const indexTip = landmarks[8]
-  const angle = Math.atan2(indexTip[1] - palmBase[1], indexTip[0] - palmBase[0])
+  // Calculate hand orientation and other features (for future use)
+  // const palmBase = landmarks[0]
+  // const indexTip = landmarks[8]
+  // const angle = Math.atan2(indexTip[1] - palmBase[1], indexTip[0] - palmBase[0])
   
   // Simple pattern matching for common letters
   // Note: Real ASL detection requires ML models trained on ASL datasets
@@ -253,7 +253,7 @@ export const getSupportedGestures = (): string[] => {
  */
 export const addCustomGesture = (
   name: string,
-  detector: (landmarks: number[][]) => boolean
+  _detector: (landmarks: number[][]) => boolean
 ) => {
   // This function allows adding new gesture detection logic dynamically
   // Can be used to extend the system with custom signs
