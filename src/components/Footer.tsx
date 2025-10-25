@@ -109,9 +109,14 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-          <p className="text-gray-400 text-sm">
-            © {currentYear} M-Hub. All rights reserved.
-          </p>
+          <div className="flex flex-col items-center md:items-start space-y-2">
+            <p className="text-gray-400 text-sm">
+              © {currentYear} M-Hub. All rights reserved.
+            </p>
+            <p className="text-gray-500 text-xs">
+              Built and developed by <span className="text-primary-400 font-semibold">Alex Etidit</span>
+            </p>
+          </div>
           <div className="flex space-x-6 text-sm">
             <a href="#" className="text-gray-400 hover:text-white transition-colors">
               Privacy Policy
