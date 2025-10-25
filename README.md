@@ -13,6 +13,13 @@ A complete, production-ready digital platform built with **React**, **TypeScript
 - **Contact Form** - Fully functional contact interface with validation
 - **Responsive Design** - Optimized for all devices
 
+### ♿ Accessibility Features (NEW!)
+- **Sign-Language Mode** - Real-time ASL gesture recognition using TensorFlow.js
+- **3D Avatar Responses** - Three.js powered avatar performs sign language
+- **Voice Output** - Web Speech API with live subtitles
+- **Privacy-First** - All processing happens locally in the browser
+- **Comprehensive Guide** - Built-in instructions and onboarding
+
 ### Client Dashboard
 - **Overview Dashboard** - Real-time metrics, charts, and statistics
 - **Projects Management** - Track and manage client projects with progress bars
@@ -244,12 +251,41 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Three.js Journey](https://threejs-journey.com)
 - [Framer Motion Guide](https://www.framer.com/motion/)
 
+## ♿ Accessibility Features
+
+M-Hub includes a comprehensive Sign-Language Communication Interface:
+
+### How to Use
+
+1. Navigate to the **Ask M-Hub** AI chat page
+2. Click the floating **♿ Accessibility** button (bottom-right)
+3. Enable camera permissions when prompted
+4. Follow the onboarding instructions
+5. Start signing ASL letters to communicate!
+
+### Features
+
+- **Real-Time Gesture Recognition**: TensorFlow.js powered hand tracking
+- **Supported Gestures**: A, B, C, D, E, F, I, L, O, V, W, Y (more coming!)
+- **3D Avatar**: Animated responses using Three.js
+- **Voice Output**: Text-to-speech with live subtitles
+- **Privacy Protected**: All processing happens locally (nothing uploaded)
+
+### Documentation
+
+Full accessibility documentation available at:
+- [`src/accessibility/README.md`](src/accessibility/README.md)
+- Model setup guide: [`public/models/README.md`](public/models/README.md)
+
+---
+
 ## 📧 Contact
 
 For questions or support, reach out to:
 - **Email**: contact@mhub.digital
+- **Accessibility**: accessibility@mhub.digital
 - **Website**: [www.mhub.digital](https://www.mhub.digital)
-- **GitHub**: [@yourusername](https://github.com/yourusername)
+- **GitHub**: [@etiditalex](https://github.com/etiditalex)
 
 ## 🙏 Acknowledgments
 

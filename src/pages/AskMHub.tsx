@@ -1,8 +1,11 @@
-import { useState, useRef, useEffect } from 'react'
+import { useState, useRef, useEffect, lazy, Suspense } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Send, Sparkles, User, Bot, Home } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import mockResponses from '../data/mockResponses.json'
+
+// Lazy load accessibility component
+const SignLanguageMode = lazy(() => import('../accessibility/SignLanguageMode'))
 
 interface Message {
   id: string
@@ -133,6 +136,32 @@ const AskMHub = () => {
     'How can I contact you?',
     'What technologies do you use?',
   ]
+
+  const handleSignLanguageMessage = (message: string) => {
+    if (!message.trim()) return
+
+    const userMessage: Message = {
+      id: Date.now().toString(),
+      text: message,
+      sender: 'user',
+      timestamp: new Date(),
+    }
+
+    setMessages((prev) => [...prev, userMessage])
+    setIsTyping(true)
+
+    // Simulate AI response
+    setTimeout(() => {
+      const aiResponse: Message = {
+        id: (Date.now() + 1).toString(),
+        text: getAIResponse(message),
+        sender: 'ai',
+        timestamp: new Date(),
+      }
+      setMessages((prev) => [...prev, aiResponse])
+      setIsTyping(false)
+    }, 1500)
+  }
 
   return (
     <div className="min-h-screen bg-dark-900 flex flex-col">
@@ -292,6 +321,11 @@ const AskMHub = () => {
           </p>
         </div>
       </main>
+
+      {/* Sign-Language Accessibility Mode */}
+      <Suspense fallback={null}>
+        <SignLanguageMode onSendMessage={handleSignLanguageMessage} />
+      </Suspense>
     </div>
   )
 }
