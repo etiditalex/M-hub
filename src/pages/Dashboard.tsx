@@ -8,8 +8,6 @@ import {
   ArrowDownRight,
 } from 'lucide-react'
 import {
-  LineChart,
-  Line,
   AreaChart,
   Area,
   BarChart,
