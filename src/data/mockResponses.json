@@ -1,0 +1,40 @@
+{
+  "greetings": [
+    "Hello! I'm M-Hub — your digital assistant. How can I help you today?",
+    "Welcome to M-Hub! I'm here to assist you with digital solutions. What can I do for you?",
+    "Hi there! I'm M-Hub, your AI-powered assistant. How may I assist you?"
+  ],
+  "services": [
+    "We offer three main service categories:\n\n1. **Digital Marketing** - SEO, social media management, content strategy, and digital advertising\n2. **Software Development** - Custom web apps, mobile applications, and enterprise solutions\n3. **Networking Solutions** - Cloud infrastructure, network security, and IT consulting\n\nWhich area interests you?",
+    "Our expertise spans across digital marketing, software development, and networking solutions. We help businesses transform digitally and scale their operations efficiently.",
+    "M-Hub specializes in:\n• Digital Marketing & Brand Strategy\n• Full-Stack Software Development\n• Cloud & Network Infrastructure\n\nWould you like details on any specific service?"
+  ],
+  "pricing": [
+    "Our pricing is tailored to your specific needs. We offer:\n\n• **Starter Package** - Perfect for small businesses\n• **Professional Package** - For growing companies\n• **Enterprise Solution** - Custom solutions for large organizations\n\nWould you like to schedule a consultation to discuss pricing?",
+    "We provide flexible pricing models including project-based, monthly retainers, and hourly consulting. Contact our team for a personalized quote!"
+  ],
+  "contact": [
+    "You can reach us through:\n\n📧 Email: contact@mhub.digital\n📱 Phone: +1 (555) 123-4567\n🌐 Website: www.mhub.digital\n\nOr fill out our contact form, and we'll get back to you within 24 hours!",
+    "We'd love to hear from you! Visit our Contact page to send us a message, or email us directly at contact@mhub.digital"
+  ],
+  "portfolio": [
+    "We've successfully delivered 200+ projects across various industries including:\n\n• E-commerce platforms\n• SaaS applications\n• Mobile apps\n• Marketing campaigns\n• Network infrastructure\n\nWould you like to see specific case studies?",
+    "Our portfolio includes work with startups, mid-size businesses, and enterprise clients. We've helped businesses increase their digital presence by an average of 300%!"
+  ],
+  "technology": [
+    "We work with cutting-edge technologies including:\n\n**Frontend:** React, Vue.js, Next.js, TypeScript\n**Backend:** Node.js, Python, Java, .NET\n**Mobile:** React Native, Flutter\n**Cloud:** AWS, Azure, Google Cloud\n**AI/ML:** TensorFlow, PyTorch, OpenAI\n\nWhat technology stack are you interested in?",
+    "Our tech stack is modern and scalable. We leverage cloud-native technologies, AI/ML frameworks, and industry-standard development practices."
+  ],
+  "ai": [
+    "I'm powered by advanced AI technology to assist you with:\n\n• Service information\n• Technical consultations\n• Project planning\n• Resource recommendations\n• Quick answers to common questions\n\nFeel free to ask me anything!",
+    "As an AI assistant, I can help guide you through our services, answer questions, and connect you with our team for more detailed discussions."
+  ],
+  "default": [
+    "That's a great question! While I can provide general information, I recommend contacting our team directly for more specific details. Would you like me to help you with anything else?",
+    "I'm here to help! Could you please provide more details about what you're looking for? You can also contact our team for personalized assistance.",
+    "I'd be happy to help you with that! For the most accurate information, I recommend reaching out to our team through the Contact page. Is there anything else I can assist you with?"
+  ]
+}
+
+
+

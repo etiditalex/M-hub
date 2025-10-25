@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Digital Marketing",
+    "icon": "TrendingUp",
+    "description": "Strategic digital marketing solutions to elevate your brand and reach your target audience effectively.",
+    "features": [
+      "Search Engine Optimization (SEO)",
+      "Social Media Management",
+      "Content Marketing Strategy",
+      "Pay-Per-Click Advertising",
+      "Email Marketing Campaigns",
+      "Analytics & Performance Tracking"
+    ],
+    "color": "primary"
+  },
+  {
+    "id": 2,
+    "title": "Software Development",
+    "icon": "Code",
+    "description": "Custom software solutions built with cutting-edge technologies to drive your business forward.",
+    "features": [
+      "Web Application Development",
+      "Mobile App Development (iOS/Android)",
+      "Custom Enterprise Solutions",
+      "API Integration & Development",
+      "Database Design & Management",
+      "Maintenance & Support"
+    ],
+    "color": "accent"
+  },
+  {
+    "id": 3,
+    "title": "Networking Solutions",
+    "icon": "Network",
+    "description": "Robust networking infrastructure and security solutions for seamless connectivity and data protection.",
+    "features": [
+      "Cloud Infrastructure Setup",
+      "Network Security & Firewall",
+      "IT Consulting & Strategy",
+      "System Integration",
+      "24/7 Technical Support",
+      "Disaster Recovery Planning"
+    ],
+    "color": "primary"
+  }
+]
+
+
+

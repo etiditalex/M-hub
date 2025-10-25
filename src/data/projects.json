@@ -1,0 +1,71 @@
+[
+  {
+    "id": 1,
+    "name": "E-Commerce Platform Redesign",
+    "client": "TechStore Inc.",
+    "status": "In Progress",
+    "progress": 75,
+    "startDate": "2024-01-15",
+    "endDate": "2024-12-30",
+    "budget": 85000,
+    "type": "Software Development"
+  },
+  {
+    "id": 2,
+    "name": "Digital Marketing Campaign",
+    "client": "GreenLife Co.",
+    "status": "Completed",
+    "progress": 100,
+    "startDate": "2024-08-01",
+    "endDate": "2024-10-15",
+    "budget": 45000,
+    "type": "Digital Marketing"
+  },
+  {
+    "id": 3,
+    "name": "Cloud Infrastructure Migration",
+    "client": "DataFlow Systems",
+    "status": "In Progress",
+    "progress": 60,
+    "startDate": "2024-09-10",
+    "endDate": "2025-01-20",
+    "budget": 120000,
+    "type": "Networking Solutions"
+  },
+  {
+    "id": 4,
+    "name": "Mobile App Development",
+    "client": "FitLife App",
+    "status": "In Progress",
+    "progress": 40,
+    "startDate": "2024-10-01",
+    "endDate": "2025-02-28",
+    "budget": 95000,
+    "type": "Software Development"
+  },
+  {
+    "id": 5,
+    "name": "SEO Optimization Project",
+    "client": "Local Biz Hub",
+    "status": "Completed",
+    "progress": 100,
+    "startDate": "2024-07-15",
+    "endDate": "2024-09-30",
+    "budget": 28000,
+    "type": "Digital Marketing"
+  },
+  {
+    "id": 6,
+    "name": "Network Security Audit",
+    "client": "SecureNet Corp",
+    "status": "Pending",
+    "progress": 15,
+    "startDate": "2024-10-20",
+    "endDate": "2024-12-15",
+    "budget": 55000,
+    "type": "Networking Solutions"
+  }
+]
+
+
+

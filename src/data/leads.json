@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "name": "Sarah Johnson",
+    "email": "sarah.johnson@techcorp.com",
+    "company": "TechCorp Industries",
+    "service": "Software Development",
+    "status": "Hot",
+    "value": 125000,
+    "date": "2024-10-20",
+    "phone": "+1 (555) 123-4567",
+    "notes": "Interested in custom CRM development"
+  },
+  {
+    "id": 2,
+    "name": "Michael Chen",
+    "email": "m.chen@innovate.io",
+    "company": "Innovate Solutions",
+    "service": "Digital Marketing",
+    "status": "Warm",
+    "value": 45000,
+    "date": "2024-10-18",
+    "phone": "+1 (555) 234-5678",
+    "notes": "Looking for comprehensive SEO services"
+  },
+  {
+    "id": 3,
+    "name": "Emily Rodriguez",
+    "email": "emily.r@cloudbase.com",
+    "company": "CloudBase Tech",
+    "service": "Networking Solutions",
+    "status": "Hot",
+    "value": 180000,
+    "date": "2024-10-22",
+    "phone": "+1 (555) 345-6789",
+    "notes": "Enterprise cloud migration project"
+  },
+  {
+    "id": 4,
+    "name": "David Kim",
+    "email": "dkim@startup.co",
+    "company": "StartupCo",
+    "service": "Software Development",
+    "status": "Cold",
+    "value": 35000,
+    "date": "2024-10-15",
+    "phone": "+1 (555) 456-7890",
+    "notes": "MVP development for mobile app"
+  },
+  {
+    "id": 5,
+    "name": "Lisa Martinez",
+    "email": "lisa.m@retailpro.com",
+    "company": "RetailPro",
+    "service": "Digital Marketing",
+    "status": "Warm",
+    "value": 62000,
+    "date": "2024-10-21",
+    "phone": "+1 (555) 567-8901",
+    "notes": "Social media and content marketing"
+  },
+  {
+    "id": 6,
+    "name": "James Wilson",
+    "email": "jwilson@fintech.io",
+    "company": "FinTech Innovations",
+    "service": "Networking Solutions",
+    "status": "Hot",
+    "value": 95000,
+    "date": "2024-10-23",
+    "phone": "+1 (555) 678-9012",
+    "notes": "Network security and compliance audit"
+  },
+  {
+    "id": 7,
+    "name": "Amanda Thompson",
+    "email": "athompson@healthplus.com",
+    "company": "HealthPlus",
+    "service": "Software Development",
+    "status": "Warm",
+    "value": 155000,
+    "date": "2024-10-19",
+    "phone": "+1 (555) 789-0123",
+    "notes": "Healthcare management system development"
+  },
+  {
+    "id": 8,
+    "name": "Robert Garcia",
+    "email": "rgarcia@ecommhub.com",
+    "company": "EcommHub",
+    "service": "Digital Marketing",
+    "status": "Cold",
+    "value": 38000,
+    "date": "2024-10-14",
+    "phone": "+1 (555) 890-1234",
+    "notes": "PPC campaign management inquiry"
+  }
+]
+
+
+
