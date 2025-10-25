@@ -13,7 +13,7 @@ import AskMHub from './pages/AskMHub'
 
 function App() {
   return (
-    <Router basename="/mhub">
+    <Router basename="/M-hub">
       <AnimatePresence mode="wait">
         <Routes>
           <Route path="/" element={<Home />} />
