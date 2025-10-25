@@ -1,5 +1,5 @@
 const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/index-GJcepxju.js","assets/graph_model-BrF80QgO.js","assets/react-vendor-CViWwmvK.js","assets/handpose.esm-Ul5W6WHL.js"])))=>i.map(i=>d[i]);
-import{_ as E,j as d}from"./three-vendor-BEm1ogwd.js";import{g as k,r as b,c as A}from"./react-vendor-CViWwmvK.js";import{d as L}from"./gestureDetection-BqmurZJO.js";import{m as P}from"./animation-vendor-D0pVqMMr.js";import{C as R}from"./SignLanguageMode-DbeUjaPf.js";import{c as T}from"./index-2hpwHQT8.js";import"./chart-vendor-CcQOYnKF.js";/**
+import{_ as E,j as d}from"./three-vendor-BEm1ogwd.js";import{g as k,r as b,c as A}from"./react-vendor-CViWwmvK.js";import{d as L}from"./gestureDetection-BqmurZJO.js";import{m as P}from"./animation-vendor-D0pVqMMr.js";import{C as R}from"./SignLanguageMode-BAoXcIxi.js";import{c as T}from"./index-Lj9jGcDQ.js";import"./chart-vendor-CcQOYnKF.js";/**
  * @license lucide-react v0.303.0 - ISC
  *
  * This source code is licensed under the ISC license.
