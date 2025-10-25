@@ -48,14 +48,14 @@ const Contact = () => {
     {
       icon: Phone,
       title: 'Call Us',
-      content: '+1 (555) 123-4567',
-      link: 'tel:+15551234567',
+      content: '0796988686 / 0780460617',
+      link: 'tel:+254796988686',
     },
     {
       icon: MapPin,
       title: 'Visit Us',
-      content: '123 Digital Street, Tech City, TC 12345',
-      link: '#',
+      content: 'Nyali, Along Links Road, Mombasa',
+      link: 'https://maps.google.com/?q=Nyali,Links+Road,Mombasa',
     },
   ]
 
@@ -278,8 +278,16 @@ const Contact = () => {
               <div className="text-center">
                 <MapPin className="w-16 h-16 text-primary-400 mx-auto mb-4" />
                 <h3 className="text-2xl font-bold mb-2">Our Location</h3>
-                <p className="text-gray-400">123 Digital Street, Tech City, TC 12345</p>
-                <p className="text-sm text-gray-500 mt-2">[Map integration placeholder]</p>
+                <p className="text-gray-400">Nyali, Along Links Road</p>
+                <p className="text-gray-400">Mombasa, Kenya</p>
+                <a
+                  href="https://maps.google.com/?q=Nyali,Links+Road,Mombasa"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block mt-4 text-primary-400 hover:text-primary-300 underline"
+                >
+                  View on Google Maps →
+                </a>
               </div>
             </Card>
           </motion.div>
