@@ -132,7 +132,7 @@ const Home = () => {
       <SocialMediaDrive />
 
       {/* Services Preview */}
-      <section className="section-padding bg-dark-800/30">
+      <section className="section-padding bg-white/5 backdrop-blur-sm">
         <div className="container-custom">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -188,7 +188,7 @@ const Home = () => {
       </section>
 
       {/* Why Choose Us */}
-      <section className="section-padding">
+      <section className="section-padding bg-gradient-to-b from-white/5 to-transparent">
         <div className="container-custom">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <motion.div
@@ -244,7 +244,7 @@ const Home = () => {
       </section>
 
       {/* Fintech AI Solutions Section */}
-      <section className="section-padding bg-gradient-to-br from-dark-800 to-dark-900">
+      <section className="section-padding bg-white/3">
         <div className="container-custom">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -425,7 +425,7 @@ const Home = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="section-padding bg-gradient-to-r from-primary-600/20 to-accent-600/20">
+      <section className="section-padding bg-gradient-to-r from-primary-600/10 to-accent-600/10 backdrop-blur-sm">
         <div className="container-custom text-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}

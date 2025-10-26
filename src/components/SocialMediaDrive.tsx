@@ -58,7 +58,7 @@ export default function SocialMediaDrive() {
   ]
 
   return (
-    <section className="section-padding bg-gradient-to-b from-dark-900 to-dark-800 relative overflow-hidden">
+    <section className="section-padding bg-gradient-to-b from-white/5 to-transparent relative overflow-hidden">
       {/* Background Effects */}
       <div className="absolute inset-0 opacity-20">
         <div className="absolute top-0 left-1/4 w-96 h-96 bg-primary-500 rounded-full filter blur-3xl animate-pulse" />

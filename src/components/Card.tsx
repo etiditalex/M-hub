@@ -12,7 +12,7 @@ const Card = ({ children, className = '', hover = false, onClick }: CardProps) =
   return (
     <motion.div
       whileHover={hover ? { scale: 1.02, y: -5 } : {}}
-      className={`${hover ? 'card-hover' : 'card'} ${className} ${onClick ? 'cursor-pointer' : ''}`}
+      className={`${hover ? 'card-hover' : 'card-light'} ${className} ${onClick ? 'cursor-pointer' : ''}`}
       onClick={onClick}
     >
       {children}
