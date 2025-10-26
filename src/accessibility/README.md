@@ -180,10 +180,10 @@ utterance.volume = 1.0 // Volume (0 - 1)
 
 All components use Tailwind CSS and follow M-Hub's design system:
 
-- **Primary Color**: `#38bdf8` (cyan)
-- **Accent Color**: `#f59e0b` (amber)
-- **Background**: `#000000` (pure black)
-- **Glassmorphism**: `bg-white/5 backdrop-blur-xl`
+- **Primary Color**: `#27ae60` (vibrant green)
+- **Accent Color**: `#27ae60` (same green)
+- **Background**: `#FFFFFF` (pure white)
+- **Cards**: White with subtle borders and shadows
 
 ### Custom Styles
 
