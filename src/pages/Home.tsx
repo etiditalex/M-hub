@@ -132,7 +132,7 @@ const Home = () => {
       <SocialMediaDrive />
 
       {/* Services Preview */}
-      <section className="section-padding bg-white/5 backdrop-blur-sm">
+      <section className="section-padding bg-white text-dark-900">
         <div className="container-custom">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -141,10 +141,10 @@ const Home = () => {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-3xl md:text-4xl font-display font-semibold mb-4">
+            <h2 className="text-3xl md:text-4xl font-display font-semibold mb-4 text-dark-900">
               Our <span className="gradient-text">Services</span>
             </h2>
-            <p className="text-base text-gray-400 max-w-2xl mx-auto">
+            <p className="text-base text-gray-600 max-w-2xl mx-auto">
               Comprehensive solutions tailored to your business needs
             </p>
           </motion.div>
@@ -160,13 +160,13 @@ const Home = () => {
                   transition={{ duration: 0.8, delay: index * 0.2 }}
                   viewport={{ once: true }}
                 >
-                  <Card hover className="h-full">
+                  <div className="card-white-hover h-full">
                     <div className={`w-16 h-16 bg-gradient-to-br ${service.color} rounded-2xl flex items-center justify-center mb-6`}>
                       <Icon className="w-8 h-8 text-white" />
                     </div>
-                    <h3 className="text-xl font-semibold mb-3">{service.title}</h3>
-                    <p className="text-sm text-gray-400">{service.description}</p>
-                  </Card>
+                    <h3 className="text-xl font-semibold mb-3 text-dark-900">{service.title}</h3>
+                    <p className="text-sm text-gray-600">{service.description}</p>
+                  </div>
                 </motion.div>
               )
             })}
@@ -244,7 +244,7 @@ const Home = () => {
       </section>
 
       {/* Fintech AI Solutions Section */}
-      <section className="section-padding bg-white/3">
+      <section className="section-padding bg-white text-dark-900">
         <div className="container-custom">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -253,10 +253,10 @@ const Home = () => {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-3xl md:text-4xl font-display font-semibold mb-6">
+            <h2 className="text-3xl md:text-4xl font-display font-semibold mb-6 text-dark-900">
               Revolutionizing <span className="gradient-text">Kenya's Fintech Marketing</span>
             </h2>
-            <p className="text-base text-gray-300 max-w-3xl mx-auto">
+            <p className="text-base text-gray-700 max-w-3xl mx-auto">
               Kenya processes over $2 billion monthly in fintech transactions. Our AI platform solves the unique challenges marketers face in Africa's digital finance leader.
             </p>
           </motion.div>
@@ -268,18 +268,18 @@ const Home = () => {
               transition={{ duration: 0.6, delay: 0.1 }}
               viewport={{ once: true }}
             >
-              <Card className="h-full text-center p-8 hover:scale-105 transition-transform">
+              <div className="card-white-hover h-full text-center">
                 <div className="w-16 h-16 mx-auto mb-6 bg-gradient-to-br from-primary-500 to-accent-500 rounded-2xl flex items-center justify-center">
                   <TrendingUp className="w-8 h-8 text-white" />
                 </div>
-                <h3 className="text-xl font-semibold mb-4">45% Lower CAC</h3>
-                <p className="text-sm text-gray-400 mb-4">
+                <h3 className="text-xl font-semibold mb-4 text-dark-900">45% Lower CAC</h3>
+                <p className="text-sm text-gray-600 mb-4">
                   AI-powered predictive targeting reduces customer acquisition costs by an average of 45% for fintech companies
                 </p>
-                <Link to="/blog/fintech-marketing-challenges-kenya-ai-solutions" className="text-primary-400 hover:text-primary-300 inline-flex items-center gap-2">
+                <Link to="/blog/fintech-marketing-challenges-kenya-ai-solutions" className="text-primary-500 hover:text-primary-600 inline-flex items-center gap-2 font-medium">
                   Learn More <ArrowRight className="w-4 h-4" />
                 </Link>
-              </Card>
+              </div>
             </motion.div>
 
             <motion.div
@@ -288,18 +288,18 @@ const Home = () => {
               transition={{ duration: 0.6, delay: 0.2 }}
               viewport={{ once: true }}
             >
-              <Card className="h-full text-center p-8 hover:scale-105 transition-transform">
+              <div className="card-white-hover h-full text-center">
                 <div className="w-16 h-16 mx-auto mb-6 bg-gradient-to-br from-accent-500 to-primary-600 rounded-2xl flex items-center justify-center">
                   <Network className="w-8 h-8 text-white" />
                 </div>
-                <h3 className="text-xl font-semibold mb-4">Multi-Channel Attribution</h3>
-                <p className="text-sm text-gray-400 mb-4">
+                <h3 className="text-xl font-semibold mb-4 text-dark-900">Multi-Channel Attribution</h3>
+                <p className="text-sm text-gray-600 mb-4">
                   Track the entire customer journey across M-Pesa, USSD, apps, social media, and SMS with AI-powered attribution
                 </p>
-                <Link to="/newsroom/kenya-fintech-2-billion-transactions" className="text-primary-400 hover:text-primary-300 inline-flex items-center gap-2">
+                <Link to="/newsroom/kenya-fintech-2-billion-transactions" className="text-primary-500 hover:text-primary-600 inline-flex items-center gap-2 font-medium">
                   Read More <ArrowRight className="w-4 h-4" />
                 </Link>
-              </Card>
+              </div>
             </motion.div>
 
             <motion.div
@@ -308,18 +308,18 @@ const Home = () => {
               transition={{ duration: 0.6, delay: 0.3 }}
               viewport={{ once: true }}
             >
-              <Card className="h-full text-center p-8 hover:scale-105 transition-transform">
+              <div className="card-white-hover h-full text-center">
                 <div className="w-16 h-16 mx-auto mb-6 bg-gradient-to-br from-primary-600 to-accent-400 rounded-2xl flex items-center justify-center">
                   <Check className="w-8 h-8 text-white" />
                 </div>
-                <h3 className="text-xl font-semibold mb-4">CBK Compliance</h3>
-                <p className="text-sm text-gray-400 mb-4">
+                <h3 className="text-xl font-semibold mb-4 text-dark-900">CBK Compliance</h3>
+                <p className="text-sm text-gray-600 mb-4">
                   Automated compliance checking ensures all fintech marketing meets Central Bank of Kenya regulations
                 </p>
-                <Link to="/newsroom/mhub-fintech-ai-marketing-suite" className="text-primary-400 hover:text-primary-300 inline-flex items-center gap-2">
+                <Link to="/newsroom/mhub-fintech-ai-marketing-suite" className="text-primary-500 hover:text-primary-600 inline-flex items-center gap-2 font-medium">
                   Discover <ArrowRight className="w-4 h-4" />
                 </Link>
-              </Card>
+              </div>
             </motion.div>
           </div>
 
@@ -329,18 +329,18 @@ const Home = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <Card className="p-8 md:p-12 bg-gradient-to-br from-primary-500/10 to-accent-500/10 border-primary-500/20">
+            <div className="card-white p-8 md:p-12">
               <div className="grid md:grid-cols-2 gap-12 items-center">
                 <div>
-                  <h3 className="text-2xl font-semibold mb-6">Kenya's Fintech Challenges</h3>
+                  <h3 className="text-2xl font-semibold mb-6 text-dark-900">Kenya's Fintech Challenges</h3>
                   <ul className="space-y-4 mb-8">
                     <li className="flex items-start gap-3">
                       <div className="w-6 h-6 bg-red-500/20 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                         <span className="text-red-400 text-sm">✗</span>
                       </div>
                       <div>
-                        <strong className="text-white">Market Saturation:</strong>
-                        <span className="text-gray-400"> 50+ fintechs competing, CAC increased 180% in 3 years</span>
+                        <strong className="text-dark-900">Market Saturation:</strong>
+                        <span className="text-gray-600"> 50+ fintechs competing, CAC increased 180% in 3 years</span>
                       </div>
                     </li>
                     <li className="flex items-start gap-3">
@@ -348,8 +348,8 @@ const Home = () => {
                         <span className="text-red-400 text-sm">✗</span>
                       </div>
                       <div>
-                        <strong className="text-white">Complex Attribution:</strong>
-                        <span className="text-gray-400"> Multi-channel journeys across mobile money, USSD, apps</span>
+                        <strong className="text-dark-900">Complex Attribution:</strong>
+                        <span className="text-gray-600"> Multi-channel journeys across mobile money, USSD, apps</span>
                       </div>
                     </li>
                     <li className="flex items-start gap-3">
@@ -357,8 +357,8 @@ const Home = () => {
                         <span className="text-red-400 text-sm">✗</span>
                       </div>
                       <div>
-                        <strong className="text-white">Data Fragmentation:</strong>
-                        <span className="text-gray-400"> Customer data siloed across M-Pesa, banks, CRMs, social</span>
+                        <strong className="text-dark-900">Data Fragmentation:</strong>
+                        <span className="text-gray-600"> Customer data siloed across M-Pesa, banks, CRMs, social</span>
                       </div>
                     </li>
                     <li className="flex items-start gap-3">
@@ -366,22 +366,22 @@ const Home = () => {
                         <span className="text-red-400 text-sm">✗</span>
                       </div>
                       <div>
-                        <strong className="text-white">Trust Deficit:</strong>
-                        <span className="text-gray-400"> Building trust quickly in a market with fraud concerns</span>
+                        <strong className="text-dark-900">Trust Deficit:</strong>
+                        <span className="text-gray-600"> Building trust quickly in a market with fraud concerns</span>
                       </div>
                     </li>
                   </ul>
                 </div>
                 <div>
-                  <h3 className="text-2xl font-semibold mb-6">M-Hub's AI Solutions</h3>
+                  <h3 className="text-2xl font-semibold mb-6 text-dark-900">M-Hub's AI Solutions</h3>
                   <ul className="space-y-4 mb-8">
                     <li className="flex items-start gap-3">
                       <div className="w-6 h-6 bg-primary-500/20 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                         <Check className="w-4 h-4 text-primary-400" />
                       </div>
                       <div>
-                        <strong className="text-white">Predictive Targeting:</strong>
-                        <span className="text-gray-400"> AI identifies high-value prospects, reduces CAC 45%</span>
+                        <strong className="text-dark-900">Predictive Targeting:</strong>
+                        <span className="text-gray-600"> AI identifies high-value prospects, reduces CAC 45%</span>
                       </div>
                     </li>
                     <li className="flex items-start gap-3">
@@ -389,8 +389,8 @@ const Home = () => {
                         <Check className="w-4 h-4 text-primary-400" />
                       </div>
                       <div>
-                        <strong className="text-white">Smart Attribution:</strong>
-                        <span className="text-gray-400"> Track every touchpoint with ML-powered attribution engine</span>
+                        <strong className="text-dark-900">Smart Attribution:</strong>
+                        <span className="text-gray-600"> Track every touchpoint with ML-powered attribution engine</span>
                       </div>
                     </li>
                     <li className="flex items-start gap-3">
@@ -398,8 +398,8 @@ const Home = () => {
                         <Check className="w-4 h-4 text-primary-400" />
                       </div>
                       <div>
-                        <strong className="text-white">Unified Data:</strong>
-                        <span className="text-gray-400"> Integrate M-Pesa APIs, banks, social—one customer view</span>
+                        <strong className="text-dark-900">Unified Data:</strong>
+                        <span className="text-gray-600"> Integrate M-Pesa APIs, banks, social—one customer view</span>
                       </div>
                     </li>
                     <li className="flex items-start gap-3">
@@ -407,8 +407,8 @@ const Home = () => {
                         <Check className="w-4 h-4 text-primary-400" />
                       </div>
                       <div>
-                        <strong className="text-white">Trust AI:</strong>
-                        <span className="text-gray-400"> Personalized security messaging and social proof</span>
+                        <strong className="text-dark-900">Trust AI:</strong>
+                        <span className="text-gray-600"> Personalized security messaging and social proof</span>
                       </div>
                     </li>
                   </ul>
@@ -419,7 +419,7 @@ const Home = () => {
                   See How It Works <ArrowRight className="w-4 h-4" />
                 </Link>
               </div>
-            </Card>
+            </div>
           </motion.div>
         </div>
       </section>

@@ -99,6 +99,14 @@
     @apply glass-light rounded-2xl p-6 transition-all duration-300 hover:transform hover:scale-105 hover:shadow-2xl cursor-pointer hover:bg-white/15 hover:border-white/30;
   }
 
+  .card-white {
+    @apply bg-gray-50 border border-gray-200 rounded-2xl p-6 transition-all duration-300 shadow-md;
+  }
+
+  .card-white-hover {
+    @apply bg-gray-50 border border-gray-200 rounded-2xl p-6 transition-all duration-300 hover:transform hover:scale-105 hover:shadow-xl cursor-pointer hover:bg-white hover:border-gray-300;
+  }
+
   /* Input styles */
   .input-field {
     @apply w-full px-4 py-3 bg-white/5 border border-white/10 rounded-lg
