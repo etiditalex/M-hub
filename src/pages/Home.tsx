@@ -64,7 +64,7 @@ const Home = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
             >
-              <h1 className="text-5xl md:text-7xl font-display font-bold mb-6 leading-tight">
+              <h1 className="text-4xl md:text-6xl font-display font-semibold mb-6 leading-tight">
                 Empowering{' '}
                 <span className="gradient-text">Digital, Software</span>
                 <br />
@@ -76,7 +76,7 @@ const Home = () => {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="text-xl text-gray-300 mb-10 max-w-2xl mx-auto"
+              className="text-lg text-gray-300 mb-10 max-w-2xl mx-auto"
             >
               Transform your business with innovative technology solutions. We deliver
               excellence in digital marketing, software development, and networking.
@@ -106,10 +106,10 @@ const Home = () => {
             >
               {stats.map((stat, index) => (
                 <div key={index} className="text-center">
-                  <div className="text-4xl md:text-5xl font-bold gradient-text mb-2">
+                  <div className="text-3xl md:text-4xl font-semibold gradient-text mb-2">
                     {stat.value}
                   </div>
-                  <div className="text-gray-400">{stat.label}</div>
+                  <div className="text-sm text-gray-400">{stat.label}</div>
                 </div>
               ))}
             </motion.div>
@@ -141,10 +141,10 @@ const Home = () => {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-display font-bold mb-4">
+            <h2 className="text-3xl md:text-4xl font-display font-semibold mb-4">
               Our <span className="gradient-text">Services</span>
             </h2>
-            <p className="text-xl text-gray-400 max-w-2xl mx-auto">
+            <p className="text-base text-gray-400 max-w-2xl mx-auto">
               Comprehensive solutions tailored to your business needs
             </p>
           </motion.div>
@@ -164,8 +164,8 @@ const Home = () => {
                     <div className={`w-16 h-16 bg-gradient-to-br ${service.color} rounded-2xl flex items-center justify-center mb-6`}>
                       <Icon className="w-8 h-8 text-white" />
                     </div>
-                    <h3 className="text-2xl font-bold mb-3">{service.title}</h3>
-                    <p className="text-gray-400">{service.description}</p>
+                    <h3 className="text-xl font-semibold mb-3">{service.title}</h3>
+                    <p className="text-sm text-gray-400">{service.description}</p>
                   </Card>
                 </motion.div>
               )
@@ -197,10 +197,10 @@ const Home = () => {
               transition={{ duration: 0.8 }}
               viewport={{ once: true }}
             >
-              <h2 className="text-4xl md:text-5xl font-display font-bold mb-6">
+              <h2 className="text-3xl md:text-4xl font-display font-semibold mb-6">
                 Why Choose <span className="gradient-text">M-Hub</span>?
               </h2>
-              <p className="text-xl text-gray-400 mb-8">
+              <p className="text-base text-gray-400 mb-8">
                 We combine expertise, innovation, and dedication to deliver
                 exceptional results that drive your business forward.
               </p>
@@ -253,10 +253,10 @@ const Home = () => {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-display font-bold mb-6">
+            <h2 className="text-3xl md:text-4xl font-display font-semibold mb-6">
               Revolutionizing <span className="gradient-text">Kenya's Fintech Marketing</span>
             </h2>
-            <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+            <p className="text-base text-gray-300 max-w-3xl mx-auto">
               Kenya processes over $2 billion monthly in fintech transactions. Our AI platform solves the unique challenges marketers face in Africa's digital finance leader.
             </p>
           </motion.div>
@@ -272,8 +272,8 @@ const Home = () => {
                 <div className="w-16 h-16 mx-auto mb-6 bg-gradient-to-br from-primary-500 to-accent-500 rounded-2xl flex items-center justify-center">
                   <TrendingUp className="w-8 h-8 text-white" />
                 </div>
-                <h3 className="text-2xl font-bold mb-4">45% Lower CAC</h3>
-                <p className="text-gray-400 mb-4">
+                <h3 className="text-xl font-semibold mb-4">45% Lower CAC</h3>
+                <p className="text-sm text-gray-400 mb-4">
                   AI-powered predictive targeting reduces customer acquisition costs by an average of 45% for fintech companies
                 </p>
                 <Link to="/blog/fintech-marketing-challenges-kenya-ai-solutions" className="text-primary-400 hover:text-primary-300 inline-flex items-center gap-2">
@@ -292,8 +292,8 @@ const Home = () => {
                 <div className="w-16 h-16 mx-auto mb-6 bg-gradient-to-br from-accent-500 to-primary-600 rounded-2xl flex items-center justify-center">
                   <Network className="w-8 h-8 text-white" />
                 </div>
-                <h3 className="text-2xl font-bold mb-4">Multi-Channel Attribution</h3>
-                <p className="text-gray-400 mb-4">
+                <h3 className="text-xl font-semibold mb-4">Multi-Channel Attribution</h3>
+                <p className="text-sm text-gray-400 mb-4">
                   Track the entire customer journey across M-Pesa, USSD, apps, social media, and SMS with AI-powered attribution
                 </p>
                 <Link to="/newsroom/kenya-fintech-2-billion-transactions" className="text-primary-400 hover:text-primary-300 inline-flex items-center gap-2">
@@ -312,8 +312,8 @@ const Home = () => {
                 <div className="w-16 h-16 mx-auto mb-6 bg-gradient-to-br from-primary-600 to-accent-400 rounded-2xl flex items-center justify-center">
                   <Check className="w-8 h-8 text-white" />
                 </div>
-                <h3 className="text-2xl font-bold mb-4">CBK Compliance</h3>
-                <p className="text-gray-400 mb-4">
+                <h3 className="text-xl font-semibold mb-4">CBK Compliance</h3>
+                <p className="text-sm text-gray-400 mb-4">
                   Automated compliance checking ensures all fintech marketing meets Central Bank of Kenya regulations
                 </p>
                 <Link to="/newsroom/mhub-fintech-ai-marketing-suite" className="text-primary-400 hover:text-primary-300 inline-flex items-center gap-2">
@@ -332,7 +332,7 @@ const Home = () => {
             <Card className="p-8 md:p-12 bg-gradient-to-br from-primary-500/10 to-accent-500/10 border-primary-500/20">
               <div className="grid md:grid-cols-2 gap-12 items-center">
                 <div>
-                  <h3 className="text-3xl font-bold mb-6">Kenya's Fintech Challenges</h3>
+                  <h3 className="text-2xl font-semibold mb-6">Kenya's Fintech Challenges</h3>
                   <ul className="space-y-4 mb-8">
                     <li className="flex items-start gap-3">
                       <div className="w-6 h-6 bg-red-500/20 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
@@ -373,7 +373,7 @@ const Home = () => {
                   </ul>
                 </div>
                 <div>
-                  <h3 className="text-3xl font-bold mb-6">M-Hub's AI Solutions</h3>
+                  <h3 className="text-2xl font-semibold mb-6">M-Hub's AI Solutions</h3>
                   <ul className="space-y-4 mb-8">
                     <li className="flex items-start gap-3">
                       <div className="w-6 h-6 bg-primary-500/20 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
@@ -433,10 +433,10 @@ const Home = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-4xl md:text-5xl font-display font-bold mb-6">
+            <h2 className="text-3xl md:text-4xl font-display font-semibold mb-6">
               Ready to Transform Your Business?
             </h2>
-            <p className="text-xl text-gray-300 mb-10 max-w-2xl mx-auto">
+            <p className="text-base text-gray-300 mb-10 max-w-2xl mx-auto">
               Let's discuss how we can help you achieve your digital goals.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

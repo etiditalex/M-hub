@@ -78,10 +78,10 @@ export default function SocialMediaDrive() {
             <Sparkles className="w-4 h-4 text-primary-400" />
             <span className="text-primary-400 font-semibold text-sm">AI-Powered Social Media Marketing</span>
           </div>
-          <h2 className="text-4xl md:text-5xl font-display font-bold mb-6">
+          <h2 className="text-3xl md:text-4xl font-display font-semibold mb-6">
             Watch Your <span className="gradient-text">Sales Soar</span> with Social Media
           </h2>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+          <p className="text-base text-gray-300 max-w-3xl mx-auto">
             Our AI platform connects all your social channels into one intelligent system that drives real revenue
           </p>
         </motion.div>
@@ -131,10 +131,10 @@ export default function SocialMediaDrive() {
                 <div className={`w-16 h-16 mx-auto mb-4 ${metric.bgColor} rounded-2xl flex items-center justify-center`}>
                   <metric.icon className={`w-8 h-8 ${metric.color}`} />
                 </div>
-                <div className={`text-4xl font-bold mb-2 ${metric.color}`}>
+                <div className={`text-3xl font-semibold mb-2 ${metric.color}`}>
                   {metric.value}
                 </div>
-                <p className="text-gray-400">{metric.label}</p>
+                <p className="text-sm text-gray-400">{metric.label}</p>
               </Card>
             </motion.div>
           ))}
@@ -150,7 +150,7 @@ export default function SocialMediaDrive() {
             viewport={{ once: true }}
           >
             <Card className="h-full p-8">
-              <h3 className="text-2xl font-bold mb-6 flex items-center gap-2">
+              <h3 className="text-xl font-semibold mb-6 flex items-center gap-2">
                 <BarChart3 className="w-6 h-6 text-primary-400" />
                 Sales by Platform
               </h3>
@@ -172,7 +172,7 @@ export default function SocialMediaDrive() {
                         <span className="font-semibold">{platform.name}</span>
                       </div>
                       <div className="text-right">
-                        <span className="text-primary-400 font-bold">{platform.sales}</span>
+                        <span className="text-primary-400 font-semibold">{platform.sales}</span>
                         <span className="text-gray-500 text-sm ml-2">({platform.percentage}%)</span>
                       </div>
                     </div>
@@ -200,11 +200,11 @@ export default function SocialMediaDrive() {
             viewport={{ once: true }}
           >
             <Card className="h-full p-8 bg-gradient-to-br from-primary-500/10 to-accent-500/10 border-primary-500/20">
-              <h3 className="text-2xl font-bold mb-6">How M-Hub Drives Social Sales</h3>
+              <h3 className="text-xl font-semibold mb-6">How M-Hub Drives Social Sales</h3>
               <ul className="space-y-6">
                 <li className="flex gap-4">
                   <div className="w-10 h-10 bg-primary-500/20 rounded-full flex items-center justify-center flex-shrink-0">
-                    <span className="text-primary-400 font-bold">1</span>
+                    <span className="text-primary-400 font-semibold">1</span>
                   </div>
                   <div>
                     <h4 className="font-semibold mb-1">AI-Powered Targeting</h4>
@@ -215,7 +215,7 @@ export default function SocialMediaDrive() {
                 </li>
                 <li className="flex gap-4">
                   <div className="w-10 h-10 bg-primary-500/20 rounded-full flex items-center justify-center flex-shrink-0">
-                    <span className="text-primary-400 font-bold">2</span>
+                    <span className="text-primary-400 font-semibold">2</span>
                   </div>
                   <div>
                     <h4 className="font-semibold mb-1">Unified Attribution</h4>
@@ -226,7 +226,7 @@ export default function SocialMediaDrive() {
                 </li>
                 <li className="flex gap-4">
                   <div className="w-10 h-10 bg-primary-500/20 rounded-full flex items-center justify-center flex-shrink-0">
-                    <span className="text-primary-400 font-bold">3</span>
+                    <span className="text-primary-400 font-semibold">3</span>
                   </div>
                   <div>
                     <h4 className="font-semibold mb-1">Real-Time Optimization</h4>
@@ -237,7 +237,7 @@ export default function SocialMediaDrive() {
                 </li>
                 <li className="flex gap-4">
                   <div className="w-10 h-10 bg-primary-500/20 rounded-full flex items-center justify-center flex-shrink-0">
-                    <span className="text-primary-400 font-bold">4</span>
+                    <span className="text-primary-400 font-semibold">4</span>
                   </div>
                   <div>
                     <h4 className="font-semibold mb-1">Conversion Tracking</h4>
@@ -260,10 +260,10 @@ export default function SocialMediaDrive() {
           className="text-center"
         >
           <Card className="p-12 bg-gradient-to-r from-primary-600/20 to-accent-600/20 border-primary-500/30">
-            <h3 className="text-3xl font-bold mb-4">
+            <h3 className="text-2xl font-semibold mb-4">
               Ready to 3X Your Social Media ROI?
             </h3>
-            <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
+            <p className="text-base text-gray-300 mb-8 max-w-2xl mx-auto">
               Join 150+ Kenyan businesses using M-Hub's AI to turn social media followers into paying customers
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
