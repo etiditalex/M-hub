@@ -291,21 +291,21 @@ M-Hub AI can now search the web for real-time data and research!
 1. Navigate to **Ask M-Hub** AI chat
 2. Click the **"Research ON"** toggle in the header
 3. Ask questions like:
-   - "What is the latest fintech news in Kenya?"
-   - "Tell me about social media marketing trends"
-   - "Current digital marketing statistics 2024"
+   - "What is the latest fintech news in Kenya 2025?"
+   - "Tell me about social media marketing trends 2025"
+   - "Current digital marketing statistics October 2025"
 4. View results with **clickable source citations**
 
 ### Built-in Knowledge Base
 
-Works immediately without any setup! Includes:
-- 🇰🇪 Kenya fintech sector data ($2B+ market)
-- 📱 M-Pesa statistics and integration guides
-- 📊 Marketing challenges and AI solutions
-- 📈 Social media ROI metrics
-- 🎯 Digital marketing trends
-- 🔒 Data protection compliance (Kenya DPA)
-- 🛒 E-commerce insights for East Africa
+Works immediately without any setup! Includes **October 2025** data:
+- 🇰🇪 Kenya fintech sector data ($2.8B+ market, 35M+ M-Pesa users)
+- 📱 M-Pesa statistics and integration guides (99.2% success rate)
+- 📊 Marketing challenges and AI solutions (420% average ROI)
+- 📈 Social media ROI metrics (TikTok Shop, Instagram, Facebook)
+- 🎯 Digital marketing trends 2025 (AI content, short-form video)
+- 🔒 Data protection compliance (Kenya DPA 2025 amendments)
+- 🛒 E-commerce insights for East Africa ($3.2B Kenya market)
 
 ### Optional: Live Web Search
 

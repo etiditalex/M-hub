@@ -193,10 +193,10 @@ const AskMHub = () => {
   }
 
   const suggestedQuestions = researchMode ? [
-    'What is the latest fintech news in Kenya?',
-    'Tell me about social media marketing trends',
-    'What are current digital marketing statistics?',
-    'Research AI in marketing automation',
+    'What is the latest fintech news in Kenya 2025?',
+    'Tell me about social media marketing trends 2025',
+    'What are current digital marketing statistics in October 2025?',
+    'Research AI in marketing automation 2025',
   ] : [
     'What services do you offer?',
     'Tell me about your pricing',

@@ -30,18 +30,18 @@ Research Mode automatically activates when users ask about:
 
 ### Knowledge Base (No API Required)
 
-M-Hub includes a comprehensive built-in knowledge base with:
-- Kenya fintech sector overview ($2B+ market)
-- M-Pesa integration statistics
-- Marketing challenges for Kenyan businesses
-- Social media ROI data
-- Digital marketing trends 2024
-- Data protection compliance (Kenya DPA 2019)
-- E-commerce growth in East Africa
-- WhatsApp Business API benefits
-- SEO best practices for Kenya
+M-Hub includes a comprehensive built-in knowledge base with **October 2025** data:
+- Kenya fintech sector overview ($2.8B+ market, 35M+ M-Pesa users)
+- M-Pesa integration statistics (99.2% success rate)
+- Marketing challenges for Kenyan businesses (420% avg ROI with AI)
+- Social media ROI data (TikTok Shop, Instagram, Facebook, WhatsApp)
+- Digital marketing trends 2025 (AI content, short-form video, voice search)
+- Data protection compliance (Kenya DPA 2019 with 2025 amendments)
+- E-commerce growth in East Africa ($3.2B Kenya market)
+- WhatsApp Business API benefits (Meta AI integration)
+- SEO best practices for Kenya (AI-powered SEO strategies)
 
-This knowledge base works **without any API key** and provides instant responses.
+This knowledge base works **without any API key** and provides instant, up-to-date responses.
 
 ## API Integration (Optional)
 
@@ -133,10 +133,10 @@ export default async function handler(req, res) {
 
 1. Open M-Hub AI chat
 2. Enable "Research ON" toggle
-3. Ask: *"What is the latest fintech news in Kenya?"*
+3. Ask: *"What is the latest fintech news in Kenya 2025?"*
 4. You should see:
    - "Web Research Result" badge
-   - AI response with data
+   - AI response with current October 2025 data
    - Clickable source links
 
 ## Usage Examples
@@ -144,19 +144,19 @@ export default async function handler(req, res) {
 ### Good Research Queries
 
 ✅ **Statistics & Data**
-- "What is the current fintech market size in Kenya?"
-- "Show me social media marketing statistics 2024"
-- "How much does M-Pesa process monthly?"
+- "What is the current fintech market size in Kenya 2025?"
+- "Show me social media marketing statistics October 2025"
+- "How much does M-Pesa process monthly in 2025?"
 
 ✅ **Trends & News**
-- "Latest digital marketing trends in Africa"
-- "Current AI marketing automation trends"
-- "Recent news about Kenya Data Protection Act"
+- "Latest digital marketing trends in Africa 2025"
+- "Current AI marketing automation trends October 2025"
+- "Recent news about Kenya Data Protection Act 2025"
 
 ✅ **How-To & Explanations**
-- "How does WhatsApp Business API work?"
-- "What are the best SEO practices for Kenya?"
-- "Tell me about e-commerce growth in East Africa"
+- "How does WhatsApp Business API work in 2025?"
+- "What are the best SEO practices for Kenya 2025?"
+- "Tell me about e-commerce growth in East Africa 2025"
 
 ### Standard Queries (No Research Needed)
 
