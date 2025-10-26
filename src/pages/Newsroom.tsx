@@ -1,4 +1,5 @@
 import { useState, useMemo } from 'react'
+import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import {
   Newspaper,
@@ -277,7 +278,8 @@ const Newsroom = () => {
                     transition={{ duration: 0.6, delay: index * 0.1 }}
                     viewport={{ once: true }}
                   >
-                    <Card className="group cursor-pointer hover:scale-[1.02] transition-all duration-300">
+                    <Link to={`/newsroom/${item.slug}`}>
+                      <Card className="group cursor-pointer hover:scale-[1.02] transition-all duration-300">
                       <div className="flex flex-col lg:flex-row gap-6">
                         {/* Image */}
                         <div className="lg:w-1/3 relative overflow-hidden rounded-xl">
@@ -345,6 +347,7 @@ const Newsroom = () => {
                         </div>
                       </div>
                     </Card>
+                    </Link>
                   </motion.div>
                 ))}
               </div>

@@ -1,4 +1,5 @@
 import { useState, useMemo } from 'react'
+import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import {
   Search,
@@ -174,7 +175,8 @@ const Blog = () => {
                     transition={{ duration: 0.6, delay: index * 0.1 }}
                     viewport={{ once: true }}
                   >
-                    <Card className="group cursor-pointer h-full hover:scale-105 transition-transform duration-300">
+                    <Link to={`/blog/${post.slug}`}>
+                      <Card className="group cursor-pointer h-full hover:scale-105 transition-transform duration-300">
                       <div className="relative overflow-hidden rounded-xl mb-6">
                         <img
                           src={post.featuredImage}
@@ -220,6 +222,7 @@ const Blog = () => {
                         </div>
                       </div>
                     </Card>
+                    </Link>
                   </motion.div>
                 ))}
               </div>
@@ -263,7 +266,8 @@ const Blog = () => {
                     transition={{ duration: 0.6, delay: index * 0.1 }}
                     viewport={{ once: true }}
                   >
-                    <Card className="group cursor-pointer h-full hover:scale-105 transition-transform duration-300">
+                    <Link to={`/blog/${post.slug}`}>
+                      <Card className="group cursor-pointer h-full hover:scale-105 transition-transform duration-300">
                       <div className="relative overflow-hidden rounded-xl mb-4">
                         <img
                           src={post.featuredImage}
@@ -303,6 +307,7 @@ const Blog = () => {
                         </div>
                       </div>
                     </Card>
+                    </Link>
                   </motion.div>
                 ))}
               </div>

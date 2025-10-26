@@ -154,3 +154,69 @@
   animation: particle-float 15s ease-in-out infinite;
 }
 
+/* Blog and News Content Styling */
+.blog-content h2,
+.news-content h2 {
+  @apply text-2xl font-bold mt-8 mb-4 text-primary-400;
+}
+
+.blog-content h3,
+.news-content h3 {
+  @apply text-xl font-bold mt-6 mb-3 text-white;
+}
+
+.blog-content h4,
+.news-content h4 {
+  @apply text-lg font-semibold mt-4 mb-2;
+}
+
+.blog-content p,
+.news-content p {
+  @apply mb-4 text-gray-300 leading-relaxed;
+}
+
+.blog-content ul,
+.news-content ul {
+  @apply list-disc list-inside mb-4 space-y-2 text-gray-300;
+}
+
+.blog-content ol,
+.news-content ol {
+  @apply list-decimal list-inside mb-4 space-y-2 text-gray-300;
+}
+
+.blog-content a,
+.news-content a {
+  @apply text-primary-400 hover:text-primary-300 underline transition-colors;
+}
+
+.blog-content code,
+.news-content code {
+  @apply bg-white/10 px-2 py-1 rounded text-sm text-primary-400;
+}
+
+.blog-content pre,
+.news-content pre {
+  @apply bg-white/5 p-4 rounded-lg overflow-x-auto mb-4;
+}
+
+.blog-content pre code,
+.news-content pre code {
+  @apply bg-transparent p-0;
+}
+
+.blog-content strong,
+.news-content strong {
+  @apply font-semibold text-white;
+}
+
+.blog-content em,
+.news-content em {
+  @apply italic text-gray-200;
+}
+
+.blog-content blockquote,
+.news-content blockquote {
+  @apply border-l-4 border-primary-500 pl-4 italic text-gray-300 my-4;
+}
+
