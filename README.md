@@ -29,9 +29,12 @@ A complete, production-ready digital platform built with **React**, **TypeScript
 
 ### AI Assistant ("Ask M-Hub")
 - **Chat Interface** - Modern, WhatsApp-style chat UI
-- **🌐 Web Research Mode (NEW!)** - Real-time web search with source citations
+- **🔥 Deep Research Mode (NEW!)** - Scrapes ACTUAL content from websites in real-time!
+- **🌐 Web Research Mode** - Real-time web search with source citations
+- **Content Extraction** - Pulls live text, metadata, author info, and key insights from URLs
 - **Intelligent Responses** - Context-aware answers with built-in Kenya-specific knowledge
 - **Source Citations** - Clickable links to original sources for research queries
+- **Key Insights Detection** - Auto-extracts statistics and important data from scraped content
 - **Typing Indicators** - Realistic conversation experience
 - **Dynamic Suggestions** - Context-aware prompts that change with research mode
 - **Fallback Knowledge Base** - Works without API keys using comprehensive local data
@@ -286,7 +289,39 @@ Full accessibility documentation available at:
 
 M-Hub AI can now search the web for real-time data and research!
 
-### How to Use
+### 🔥 Deep Research Mode - NEW!
+
+**The AI can now SCRAPE actual content from websites and extract real data!**
+
+#### How Deep Research Works:
+
+1. Navigate to **Ask M-Hub** AI chat
+2. Click **"Research ON"** toggle (green)
+3. Click **"Deep Scrape ON"** toggle (orange) - this activates web scraping!
+4. Ask your question
+5. The AI will:
+   - Search for relevant websites
+   - **Scrape actual HTML content** from top 3 results
+   - **Extract text, metadata, author info**
+   - **Identify key insights** (statistics, data points)
+   - **Synthesize information** from multiple sources
+
+#### Example Deep Research Queries:
+
+- "🔥 Scrape latest Kenya fintech reports 2025"
+- "🔥 Pull real data on M-Pesa transaction volumes"
+- "🔥 Extract insights from top marketing websites"
+- "🔥 Deep research TikTok Shop commerce trends"
+
+#### What You Get:
+
+✅ **Actual web page content** - Not just summaries!  
+✅ **Author and publish dates** - Full metadata extraction  
+✅ **Key insights highlighted** - Auto-detected statistics  
+✅ **Multiple sources** - Up to 3 websites scraped per query  
+✅ **Clickable source links** - Verify information yourself
+
+### Standard Research Mode
 
 1. Navigate to **Ask M-Hub** AI chat
 2. Click the **"Research ON"** toggle in the header
