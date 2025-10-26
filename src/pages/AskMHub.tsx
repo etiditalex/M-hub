@@ -173,7 +173,7 @@ const AskMHub = () => {
               <Link to="/" className="flex items-center space-x-2 group">
                 <Sparkles className="w-8 h-8 text-primary-400 group-hover:text-primary-300 transition-colors" />
                 <span className="text-2xl font-display font-bold gradient-text">
-                  M-Hub AI
+                  M-Hub
                 </span>
               </Link>
             </div>

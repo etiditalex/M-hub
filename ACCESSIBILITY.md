@@ -20,7 +20,7 @@ Sign-Language Mode enables users who communicate using sign language to interact
 ### Step 1: Navigate to AI Chat
 
 1. Go to **https://etiditalex.github.io/M-hub/ask-mhub**
-2. You'll see the M-Hub AI chat interface
+2. You'll see the M-Hub chat interface
 
 ### Step 2: Enable Accessibility Mode
 

@@ -69,7 +69,7 @@ const DashboardLayout = ({ children }: DashboardLayoutProps) => {
             className="flex items-center space-x-3 px-4 py-3 rounded-lg bg-gradient-to-r from-primary-500 to-primary-600 text-white hover:from-primary-600 hover:to-primary-700 transition-all duration-300"
           >
             <Sparkles className="w-5 h-5" />
-            <span className="font-medium">Ask M-Hub AI</span>
+            <span className="font-medium">Ask M-Hub</span>
           </Link>
         </div>
       </aside>

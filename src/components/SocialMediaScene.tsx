@@ -8,15 +8,18 @@ function SocialIcon({
   position, 
   color, 
   delay = 0,
-  shape = 'sphere'
+  shape = 'sphere',
+  name
 }: { 
   position: [number, number, number]
   color: string
   delay?: number
   shape?: 'sphere' | 'box'
+  name: string
 }) {
   const meshRef = useRef<THREE.Mesh>(null)
   const glowRef = useRef<THREE.Mesh>(null)
+  const textRef = useRef<THREE.Mesh>(null)
 
   useFrame((state) => {
     if (meshRef.current) {
@@ -36,7 +39,26 @@ function SocialIcon({
       const material = glowRef.current.material as THREE.MeshBasicMaterial
       material.opacity = 0.3 + Math.sin(state.clock.elapsedTime * 2 + delay) * 0.1
     }
+    
+    if (textRef.current) {
+      // Keep text billboard (always facing camera)
+      textRef.current.quaternion.copy(state.camera.quaternion)
+    }
   })
+
+  // Create text sprite
+  const canvas = document.createElement('canvas')
+  const ctx = canvas.getContext('2d')
+  if (ctx) {
+    canvas.width = 512
+    canvas.height = 128
+    ctx.font = 'bold 80px Arial'
+    ctx.fillStyle = 'white'
+    ctx.textAlign = 'center'
+    ctx.textBaseline = 'middle'
+    ctx.fillText(name, 256, 64)
+  }
+  const texture = new THREE.CanvasTexture(canvas)
 
   return (
     <Float speed={2} rotationIntensity={0.5} floatIntensity={0.5}>
@@ -61,6 +83,12 @@ function SocialIcon({
             roughness={0.2}
             metalness={0.9}
           />
+        </mesh>
+        
+        {/* Text label */}
+        <mesh ref={textRef} position={[0, -2, 0]}>
+          <planeGeometry args={[3, 0.75]} />
+          <meshBasicMaterial map={texture} transparent opacity={0.9} />
         </mesh>
       </group>
     </Float>
@@ -138,12 +166,12 @@ function Particles() {
 // Main Scene Component
 function Scene() {
   const socialIcons = [
-    { position: [-4, 2, 0] as [number, number, number], color: '#1877f2', delay: 0, shape: 'sphere' as const },
-    { position: [0, 3, 0] as [number, number, number], color: '#1da1f2', delay: 0.5, shape: 'box' as const },
-    { position: [4, 2, 0] as [number, number, number], color: '#0077b5', delay: 1, shape: 'sphere' as const },
-    { position: [-3, -1, 0] as [number, number, number], color: '#e4405f', delay: 1.5, shape: 'sphere' as const },
-    { position: [3, -1, 0] as [number, number, number], color: '#25d366', delay: 2, shape: 'sphere' as const },
-    { position: [0, -2, 0] as [number, number, number], color: '#ff0000', delay: 2.5, shape: 'box' as const },
+    { position: [-4, 2, 0] as [number, number, number], color: '#1877f2', delay: 0, shape: 'sphere' as const, name: 'Facebook' },
+    { position: [0, 3, 0] as [number, number, number], color: '#1da1f2', delay: 0.5, shape: 'box' as const, name: 'Twitter' },
+    { position: [4, 2, 0] as [number, number, number], color: '#0077b5', delay: 1, shape: 'sphere' as const, name: 'LinkedIn' },
+    { position: [-3, -1, 0] as [number, number, number], color: '#e4405f', delay: 1.5, shape: 'sphere' as const, name: 'Instagram' },
+    { position: [3, -1, 0] as [number, number, number], color: '#25d366', delay: 2, shape: 'sphere' as const, name: 'WhatsApp' },
+    { position: [0, -2, 0] as [number, number, number], color: '#ff0000', delay: 2.5, shape: 'box' as const, name: 'YouTube' },
   ]
 
   return (
