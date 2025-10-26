@@ -3,11 +3,14 @@
  * Integrates with search APIs to fetch real-time data from the web
  */
 
+import { webScraperService, ScrapedContent, DeepResearchResult } from './webScraper'
+
 export interface SearchResult {
   title: string
   url: string
   description: string
   published?: string
+  scrapedContent?: ScrapedContent
 }
 
 export interface ResearchData {
@@ -119,6 +122,29 @@ class WebSearchService {
       sources,
       timestamp: new Date(),
     }
+  }
+
+  /**
+   * Perform deep research - searches AND scrapes actual content from URLs
+   */
+  async deepResearch(topic: string): Promise<DeepResearchResult> {
+    // First, perform regular search
+    const searchResults = await this.search(topic, 5)
+    
+    // Then scrape content from top results
+    const deepResult = await webScraperService.deepResearch(
+      topic,
+      searchResults.map(r => ({ url: r.url, title: r.title }))
+    )
+    
+    return deepResult
+  }
+
+  /**
+   * Scrape a single URL and return its content
+   */
+  async scrapeURL(url: string): Promise<ScrapedContent> {
+    return webScraperService.scrapeURL(url)
   }
 
   /**
