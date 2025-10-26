@@ -182,7 +182,7 @@ All components use Tailwind CSS and follow M-Hub's design system:
 
 - **Primary Color**: `#38bdf8` (cyan)
 - **Accent Color**: `#f59e0b` (amber)
-- **Background**: `#0f172a` (dark navy)
+- **Background**: `#000000` (pure black)
 - **Glassmorphism**: `bg-white/5 backdrop-blur-xl`
 
 ### Custom Styles

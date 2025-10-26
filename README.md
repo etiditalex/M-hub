@@ -43,7 +43,7 @@ A complete, production-ready digital platform built with **React**, **TypeScript
 ## 🎨 Design System
 
 ### Color Palette
-- **Background**: `#0f172a` (Dark Navy)
+- **Background**: `#000000` (Pure Black)
 - **Primary**: `#38bdf8` (Cyan Blue)
 - **Accent**: `#f59e0b` (Amber)
 - **Glass Effects**: Glassmorphism with backdrop blur
