@@ -52,7 +52,7 @@ function SocialIcon({
   if (ctx) {
     canvas.width = 512
     canvas.height = 128
-    ctx.font = 'bold 80px Arial'
+    ctx.font = '400 80px Arial'
     ctx.fillStyle = 'white'
     ctx.textAlign = 'center'
     ctx.textBaseline = 'middle'
