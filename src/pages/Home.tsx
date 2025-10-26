@@ -4,6 +4,7 @@ import { motion } from 'framer-motion'
 import { ArrowRight, TrendingUp, Code, Network, Check } from 'lucide-react'
 import PageLayout from '../components/PageLayout'
 import HeroScene from '../components/HeroScene'
+import SocialMediaDrive from '../components/SocialMediaDrive'
 import Card from '../components/Card'
 
 const Home = () => {
@@ -126,6 +127,9 @@ const Home = () => {
           </div>
         </motion.div>
       </section>
+
+      {/* Social Media 3D Animation */}
+      <SocialMediaDrive />
 
       {/* Services Preview */}
       <section className="section-padding bg-dark-800/30">
