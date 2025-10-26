@@ -1,10 +1,14 @@
+import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { TrendingUp, Code, Network, Check } from 'lucide-react'
 import PageLayout from '../components/PageLayout'
 import Card from '../components/Card'
+import WhatsAppContactForm from '../components/WhatsAppContactForm'
 import servicesData from '../data/services.json'
 
 const Services = () => {
+  const [isFormOpen, setIsFormOpen] = useState(false)
+  
   const iconMap: Record<string, any> = {
     TrendingUp,
     Code,
@@ -182,13 +186,22 @@ const Services = () => {
                 Ready to take your business to the next level? Get in touch and
                 let's discuss your project.
               </p>
-              <a href="/contact" className="btn-primary">
+              <button 
+                onClick={() => setIsFormOpen(true)} 
+                className="btn-primary"
+              >
                 Start Your Project
-              </a>
+              </button>
             </motion.div>
           </Card>
         </div>
       </section>
+
+      {/* WhatsApp Contact Form Modal */}
+      <WhatsAppContactForm 
+        isOpen={isFormOpen} 
+        onClose={() => setIsFormOpen(false)} 
+      />
     </PageLayout>
   )
 }

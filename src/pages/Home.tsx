@@ -1,4 +1,4 @@
-import { Suspense } from 'react'
+import { Suspense, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { ArrowRight, TrendingUp, Code, Network, Check } from 'lucide-react'
@@ -6,8 +6,10 @@ import PageLayout from '../components/PageLayout'
 import HeroScene from '../components/HeroScene'
 import SocialMediaDrive from '../components/SocialMediaDrive'
 import Card from '../components/Card'
+import WhatsAppContactForm from '../components/WhatsAppContactForm'
 
 const Home = () => {
+  const [isFormOpen, setIsFormOpen] = useState(false)
   const services = [
     {
       icon: TrendingUp,
@@ -92,9 +94,12 @@ const Home = () => {
                 <span>Explore Services</span>
                 <ArrowRight className="w-5 h-5" />
               </Link>
-              <Link to="/contact" className="btn-ghost">
+              <button 
+                onClick={() => setIsFormOpen(true)} 
+                className="btn-ghost"
+              >
                 Contact Us
-              </Link>
+              </button>
             </motion.div>
 
             {/* Stats */}
@@ -440,9 +445,12 @@ const Home = () => {
               Let's discuss how we can help you achieve your digital goals.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link to="/contact" className="btn-primary">
+              <button 
+                onClick={() => setIsFormOpen(true)} 
+                className="btn-primary"
+              >
                 Get Started Today
-              </Link>
+              </button>
               <Link to="/ask-mhub" className="btn-secondary">
                 Ask Our AI Assistant
               </Link>
@@ -450,6 +458,12 @@ const Home = () => {
           </motion.div>
         </div>
       </section>
+
+      {/* WhatsApp Contact Form Modal */}
+      <WhatsAppContactForm 
+        isOpen={isFormOpen} 
+        onClose={() => setIsFormOpen(false)} 
+      />
     </PageLayout>
   )
 }
