@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import { Menu, X, Sparkles } from 'lucide-react'
+import { Menu, X } from 'lucide-react'
 import { motion, AnimatePresence } from 'framer-motion'
 
 const Navbar = () => {
@@ -38,11 +38,7 @@ const Navbar = () => {
       <div className="container-custom">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2 group">
-            <div className="relative">
-              <Sparkles className="w-8 h-8 text-primary-400 group-hover:text-primary-300 transition-colors" />
-              <div className="absolute inset-0 blur-xl bg-primary-500/50 group-hover:bg-primary-400/60 transition-all" />
-            </div>
+          <Link to="/" className="group">
             <span className="text-2xl font-display font-bold gradient-text">M-Hub</span>
           </Link>
 
@@ -63,10 +59,9 @@ const Navbar = () => {
             ))}
             <Link
               to="/ask-mhub"
-              className="btn-primary flex items-center space-x-2"
+              className="btn-primary"
             >
-              <Sparkles className="w-4 h-4" />
-              <span>Ask M-Hub</span>
+              Ask M-Hub
             </Link>
             <Link to="/dashboard" className="btn-ghost">
               Dashboard

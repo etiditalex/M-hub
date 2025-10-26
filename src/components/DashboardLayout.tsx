@@ -38,8 +38,7 @@ const DashboardLayout = ({ children }: DashboardLayoutProps) => {
       {/* Sidebar - Desktop */}
       <aside className="hidden lg:flex lg:flex-col lg:w-64 glass border-r border-white/10">
         <div className="p-6 border-b border-white/10">
-          <Link to="/" className="flex items-center space-x-2 group">
-            <Sparkles className="w-8 h-8 text-primary-400" />
+          <Link to="/" className="group inline-block">
             <span className="text-2xl font-display font-bold gradient-text">M-Hub</span>
           </Link>
         </div>
@@ -170,8 +169,7 @@ const DashboardLayout = ({ children }: DashboardLayoutProps) => {
                 className="lg:hidden fixed left-0 top-0 bottom-0 w-64 glass-strong border-r border-white/20 z-50"
               >
                 <div className="p-6 border-b border-white/10 flex items-center justify-between">
-                  <Link to="/" className="flex items-center space-x-2">
-                    <Sparkles className="w-8 h-8 text-primary-400" />
+                  <Link to="/" className="inline-block">
                     <span className="text-2xl font-display font-bold gradient-text">M-Hub</span>
                   </Link>
                   <button

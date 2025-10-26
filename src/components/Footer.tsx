@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { Sparkles, Mail, Phone, MapPin, Github, Twitter, Linkedin } from 'lucide-react'
+import { Mail, Phone, MapPin, Github, Twitter, Linkedin } from 'lucide-react'
 
 const Footer = () => {
   const currentYear = new Date().getFullYear()
@@ -10,8 +10,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           {/* Brand */}
           <div>
-            <Link to="/" className="flex items-center space-x-2 group mb-4">
-              <Sparkles className="w-6 h-6 text-primary-400" />
+            <Link to="/" className="group mb-4 inline-block">
               <span className="text-xl font-display font-bold gradient-text">M-Hub</span>
             </Link>
             <p className="text-gray-400 mb-4">
