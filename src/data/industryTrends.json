@@ -1,0 +1,76 @@
+[
+  {
+    "id": "1",
+    "keyword": "Artificial Intelligence",
+    "trend": "up",
+    "changePercent": 127,
+    "description": "AI adoption surging across enterprises",
+    "relatedTopics": ["Machine Learning", "GPT", "Automation", "Neural Networks"],
+    "icon": "brain"
+  },
+  {
+    "id": "2",
+    "keyword": "Cloud Computing",
+    "trend": "up",
+    "changePercent": 84,
+    "description": "Multi-cloud strategies gaining momentum",
+    "relatedTopics": ["AWS", "Azure", "Hybrid Cloud", "Serverless"],
+    "icon": "cloud"
+  },
+  {
+    "id": "3",
+    "keyword": "Cybersecurity",
+    "trend": "up",
+    "changePercent": 96,
+    "description": "Zero-trust architecture becoming standard",
+    "relatedTopics": ["Zero Trust", "Ransomware", "Identity Management", "SIEM"],
+    "icon": "shield"
+  },
+  {
+    "id": "4",
+    "keyword": "Web3",
+    "trend": "down",
+    "changePercent": -32,
+    "description": "Blockchain adoption slowing in enterprise",
+    "relatedTopics": ["Blockchain", "NFT", "Decentralization", "Smart Contracts"],
+    "icon": "network"
+  },
+  {
+    "id": "5",
+    "keyword": "Edge Computing",
+    "trend": "up",
+    "changePercent": 73,
+    "description": "IoT driving edge infrastructure growth",
+    "relatedTopics": ["IoT", "5G", "Latency", "Distributed Systems"],
+    "icon": "server"
+  },
+  {
+    "id": "6",
+    "keyword": "DevOps",
+    "trend": "up",
+    "changePercent": 58,
+    "description": "GitOps and platform engineering rising",
+    "relatedTopics": ["CI/CD", "Kubernetes", "GitOps", "Platform Engineering"],
+    "icon": "code"
+  },
+  {
+    "id": "7",
+    "keyword": "Quantum Computing",
+    "trend": "up",
+    "changePercent": 145,
+    "description": "Commercial quantum solutions emerging",
+    "relatedTopics": ["Quantum Algorithms", "Cryptography", "Research"],
+    "icon": "atom"
+  },
+  {
+    "id": "8",
+    "keyword": "Remote Work Tech",
+    "trend": "stable",
+    "changePercent": 12,
+    "description": "Hybrid work tools maturing",
+    "relatedTopics": ["Collaboration", "Video Conferencing", "Productivity", "VPN"],
+    "icon": "users"
+  }
+]
+
+

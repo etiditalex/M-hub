@@ -1,0 +1,124 @@
+[
+  {
+    "id": "1",
+    "title": "The Future of AI in Digital Marketing: Trends for 2025",
+    "slug": "future-ai-digital-marketing-2025",
+    "excerpt": "Explore how artificial intelligence is revolutionizing digital marketing strategies and what businesses need to know to stay ahead.",
+    "content": "Artificial intelligence is transforming the digital marketing landscape at an unprecedented pace. From predictive analytics to personalized customer experiences, AI is enabling marketers to achieve results that were once impossible...",
+    "author": {
+      "name": "Alex Etidit",
+      "avatar": "https://ui-avatars.com/api/?name=Alex+Etidit&background=22c55e&color=fff",
+      "role": "CEO & Founder"
+    },
+    "category": "AI & Technology",
+    "tags": ["AI", "Digital Marketing", "Machine Learning", "Automation"],
+    "publishedAt": "2024-10-20T10:30:00Z",
+    "readTime": 8,
+    "featuredImage": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&h=600&fit=crop",
+    "views": 2847,
+    "likes": 156,
+    "featured": true
+  },
+  {
+    "id": "2",
+    "title": "Building Scalable Cloud Infrastructure for Modern Applications",
+    "slug": "scalable-cloud-infrastructure-modern-apps",
+    "excerpt": "Learn the best practices for designing and implementing cloud infrastructure that scales with your business needs.",
+    "content": "As businesses grow, their infrastructure needs evolve. Cloud computing has made it easier than ever to scale applications, but doing it right requires careful planning and architecture...",
+    "author": {
+      "name": "Sarah Johnson",
+      "avatar": "https://ui-avatars.com/api/?name=Sarah+Johnson&background=10b981&color=fff",
+      "role": "Cloud Architect"
+    },
+    "category": "Cloud Computing",
+    "tags": ["Cloud", "DevOps", "AWS", "Infrastructure", "Scalability"],
+    "publishedAt": "2024-10-18T14:15:00Z",
+    "readTime": 12,
+    "featuredImage": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&h=600&fit=crop",
+    "views": 1923,
+    "likes": 98,
+    "featured": true
+  },
+  {
+    "id": "3",
+    "title": "Cybersecurity Best Practices for Small and Medium Businesses",
+    "slug": "cybersecurity-best-practices-smb",
+    "excerpt": "Protect your business from cyber threats with these essential security measures that every SMB should implement.",
+    "content": "Cybersecurity is no longer optional for small and medium-sized businesses. With increasing cyber threats and sophisticated attacks, implementing robust security measures is critical...",
+    "author": {
+      "name": "Michael Chen",
+      "avatar": "https://ui-avatars.com/api/?name=Michael+Chen&background=16a34a&color=fff",
+      "role": "Security Consultant"
+    },
+    "category": "Cybersecurity",
+    "tags": ["Security", "Cybersecurity", "Data Protection", "SMB"],
+    "publishedAt": "2024-10-15T09:00:00Z",
+    "readTime": 10,
+    "featuredImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1200&h=600&fit=crop",
+    "views": 3421,
+    "likes": 234,
+    "featured": false
+  },
+  {
+    "id": "4",
+    "title": "React 19: What's New and Why It Matters",
+    "slug": "react-19-whats-new",
+    "excerpt": "Dive into the latest features and improvements in React 19 and how they'll impact your development workflow.",
+    "content": "React 19 brings exciting new features that will change how we build web applications. From improved server components to enhanced performance optimizations...",
+    "author": {
+      "name": "Emma Rodriguez",
+      "avatar": "https://ui-avatars.com/api/?name=Emma+Rodriguez&background=22c55e&color=fff",
+      "role": "Senior Developer"
+    },
+    "category": "Web Development",
+    "tags": ["React", "JavaScript", "Frontend", "Web Development"],
+    "publishedAt": "2024-10-12T11:45:00Z",
+    "readTime": 6,
+    "featuredImage": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=1200&h=600&fit=crop",
+    "views": 4156,
+    "likes": 312,
+    "featured": true
+  },
+  {
+    "id": "5",
+    "title": "The Rise of Edge Computing: Opportunities and Challenges",
+    "slug": "rise-edge-computing-opportunities",
+    "excerpt": "Edge computing is transforming how we process and deliver data. Discover the opportunities it presents for businesses.",
+    "content": "Edge computing is rapidly gaining traction as businesses seek faster data processing and lower latency. By bringing computation closer to data sources...",
+    "author": {
+      "name": "David Kim",
+      "avatar": "https://ui-avatars.com/api/?name=David+Kim&background=10b981&color=fff",
+      "role": "Solutions Architect"
+    },
+    "category": "Cloud Computing",
+    "tags": ["Edge Computing", "IoT", "Cloud", "Infrastructure"],
+    "publishedAt": "2024-10-10T16:20:00Z",
+    "readTime": 9,
+    "featuredImage": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&h=600&fit=crop",
+    "views": 2134,
+    "likes": 145,
+    "featured": false
+  },
+  {
+    "id": "6",
+    "title": "UX Design Principles That Drive User Engagement",
+    "slug": "ux-design-principles-user-engagement",
+    "excerpt": "Master the fundamental UX design principles that create engaging and intuitive user experiences.",
+    "content": "Great user experience design is about understanding user needs and creating interfaces that are both beautiful and functional...",
+    "author": {
+      "name": "Lisa Thompson",
+      "avatar": "https://ui-avatars.com/api/?name=Lisa+Thompson&background=16a34a&color=fff",
+      "role": "UX Designer"
+    },
+    "category": "Design",
+    "tags": ["UX", "Design", "User Experience", "UI"],
+    "publishedAt": "2024-10-08T13:00:00Z",
+    "readTime": 7,
+    "featuredImage": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=1200&h=600&fit=crop",
+    "views": 2891,
+    "likes": 201,
+    "featured": false
+  }
+]
+
+
