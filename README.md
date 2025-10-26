@@ -29,10 +29,13 @@ A complete, production-ready digital platform built with **React**, **TypeScript
 
 ### AI Assistant ("Ask M-Hub")
 - **Chat Interface** - Modern, WhatsApp-style chat UI
-- **Mock AI Responses** - Context-aware responses based on user queries
+- **🌐 Web Research Mode (NEW!)** - Real-time web search with source citations
+- **Intelligent Responses** - Context-aware answers with built-in Kenya-specific knowledge
+- **Source Citations** - Clickable links to original sources for research queries
 - **Typing Indicators** - Realistic conversation experience
-- **Suggested Questions** - Quick-start conversation prompts
-- **Ready for API Integration** - Structured for OpenAI, Gemini, or custom backends
+- **Dynamic Suggestions** - Context-aware prompts that change with research mode
+- **Fallback Knowledge Base** - Works without API keys using comprehensive local data
+- **Ready for API Integration** - Structured for Brave Search, OpenAI, Gemini, or custom backends
 
 ## 🎨 Design System
 
@@ -276,6 +279,45 @@ M-Hub includes a comprehensive Sign-Language Communication Interface:
 Full accessibility documentation available at:
 - [`src/accessibility/README.md`](src/accessibility/README.md)
 - Model setup guide: [`public/models/README.md`](public/models/README.md)
+
+---
+
+## 🌐 Web Research Mode
+
+M-Hub AI can now search the web for real-time data and research!
+
+### How to Use
+
+1. Navigate to **Ask M-Hub** AI chat
+2. Click the **"Research ON"** toggle in the header
+3. Ask questions like:
+   - "What is the latest fintech news in Kenya?"
+   - "Tell me about social media marketing trends"
+   - "Current digital marketing statistics 2024"
+4. View results with **clickable source citations**
+
+### Built-in Knowledge Base
+
+Works immediately without any setup! Includes:
+- 🇰🇪 Kenya fintech sector data ($2B+ market)
+- 📱 M-Pesa statistics and integration guides
+- 📊 Marketing challenges and AI solutions
+- 📈 Social media ROI metrics
+- 🎯 Digital marketing trends
+- 🔒 Data protection compliance (Kenya DPA)
+- 🛒 E-commerce insights for East Africa
+
+### Optional: Live Web Search
+
+Want real-time web data? Integrate the **Brave Search API** (free tier available):
+
+📖 **Setup Guide**: [`docs/WEB_SEARCH_SETUP.md`](docs/WEB_SEARCH_SETUP.md)
+
+Features with API:
+- ✅ 2,000 free searches/month
+- ✅ Real-time data from across the web
+- ✅ Automatic source citations
+- ✅ Privacy-focused (no user tracking)
 
 ---
 
