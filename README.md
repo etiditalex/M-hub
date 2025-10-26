@@ -43,11 +43,10 @@ A complete, production-ready digital platform built with **React**, **TypeScript
 ## 🎨 Design System
 
 ### Color Palette
-- **Background**: `#FFFFFF` (Pure White)
-- **Primary**: `#27ae60` (Vibrant Green)
-- **Accent**: `#27ae60` (Same Green)
-- **Text**: Dark gray/black for optimal readability
-- **Cards**: White with subtle borders and shadows
+- **Background**: `#000000` (Pure Black)
+- **Primary**: `#38bdf8` (Cyan Blue)
+- **Accent**: `#f59e0b` (Amber)
+- **Glass Effects**: Glassmorphism with backdrop blur
 
 ### Typography
 - **Display**: Poppins (headings)
