@@ -21,10 +21,10 @@ const Services = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <h1 className="text-5xl md:text-6xl font-display font-bold mb-6">
+            <h1 className="text-4xl md:text-6xl font-display font-semibold mb-6">
               Our <span className="gradient-text">Services</span>
             </h1>
-            <p className="text-xl text-gray-400 max-w-3xl mx-auto">
+            <p className="text-lg text-gray-300 max-w-3xl mx-auto">
               Comprehensive digital solutions designed to elevate your business and
               drive sustainable growth in the digital age.
             </p>
@@ -33,7 +33,7 @@ const Services = () => {
       </section>
 
       {/* Services Grid */}
-      <section className="section-padding">
+      <section className="section-padding bg-white text-dark-900">
         <div className="container-custom">
           <div className="space-y-20">
             {servicesData.map((service, index) => {
@@ -52,7 +52,7 @@ const Services = () => {
                   }`}
                 >
                   <div className={!isEven ? 'lg:col-start-2' : ''}>
-                    <Card hover className="h-full">
+                    <div className="card-white h-full">
                       <div
                         className={`w-20 h-20 bg-gradient-to-br ${
                           service.color === 'primary'
@@ -62,8 +62,8 @@ const Services = () => {
                       >
                         <Icon className="w-10 h-10 text-white" />
                       </div>
-                      <h2 className="text-3xl font-bold mb-4">{service.title}</h2>
-                      <p className="text-gray-400 text-lg mb-6">
+                      <h2 className="text-2xl font-semibold mb-4 text-dark-900">{service.title}</h2>
+                      <p className="text-gray-600 text-base mb-6">
                         {service.description}
                       </p>
                       <div className="space-y-3">
@@ -79,16 +79,16 @@ const Services = () => {
                               <Check
                                 className={`w-4 h-4 ${
                                   service.color === 'primary'
-                                    ? 'text-primary-400'
-                                    : 'text-accent-400'
+                                    ? 'text-primary-500'
+                                    : 'text-accent-500'
                                 }`}
                               />
                             </div>
-                            <span className="text-gray-300">{feature}</span>
+                            <span className="text-gray-700">{feature}</span>
                           </div>
                         ))}
                       </div>
-                    </Card>
+                    </div>
                   </div>
 
                   <div className={!isEven ? 'lg:col-start-1 lg:row-start-1' : ''}>

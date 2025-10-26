@@ -62,10 +62,10 @@ const About = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <h1 className="text-5xl md:text-6xl font-display font-bold mb-6">
+            <h1 className="text-4xl md:text-6xl font-display font-semibold mb-6">
               About <span className="gradient-text">M-Hub</span>
             </h1>
-            <p className="text-xl text-gray-400 max-w-3xl mx-auto">
+            <p className="text-lg text-gray-300 max-w-3xl mx-auto">
               We are a team of passionate professionals dedicated to transforming
               businesses through innovative digital solutions.
             </p>
@@ -74,7 +74,7 @@ const About = () => {
       </section>
 
       {/* Globe Section */}
-      <section className="section-padding">
+      <section className="section-padding bg-white text-dark-900">
         <div className="container-custom">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <motion.div
@@ -83,16 +83,16 @@ const About = () => {
               transition={{ duration: 0.8 }}
               viewport={{ once: true }}
             >
-              <h2 className="text-4xl md:text-5xl font-display font-bold mb-6">
+              <h2 className="text-3xl md:text-4xl font-display font-semibold mb-6 text-dark-900">
                 Global Impact,{' '}
                 <span className="gradient-text">Local Expertise</span>
               </h2>
-              <p className="text-lg text-gray-400 mb-6">
+              <p className="text-base text-gray-600 mb-6">
                 Founded in 2014, M-Hub has grown from a small startup to a leading
                 digital solutions provider. We've helped over 150 clients across 30
                 countries achieve their digital transformation goals.
               </p>
-              <p className="text-lg text-gray-400 mb-6">
+              <p className="text-base text-gray-600 mb-6">
                 Our mission is to empower businesses with technology that drives
                 growth, efficiency, and innovation. We believe in building lasting
                 partnerships and delivering solutions that make a real difference.
@@ -106,7 +106,7 @@ const About = () => {
                     />
                   ))}
                 </div>
-                <span className="text-gray-400">50+ Team Members</span>
+                <span className="text-gray-700 font-medium">50+ Team Members</span>
               </div>
             </motion.div>
 
@@ -171,7 +171,7 @@ const About = () => {
       </section>
 
       {/* Core Values */}
-      <section className="section-padding">
+      <section className="section-padding bg-white text-dark-900">
         <div className="container-custom">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -180,10 +180,10 @@ const About = () => {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-display font-bold mb-4">
+            <h2 className="text-3xl md:text-4xl font-display font-semibold mb-4 text-dark-900">
               Our <span className="gradient-text">Core Values</span>
             </h2>
-            <p className="text-xl text-gray-400 max-w-2xl mx-auto">
+            <p className="text-base text-gray-600 max-w-2xl mx-auto">
               The principles that guide everything we do
             </p>
           </motion.div>

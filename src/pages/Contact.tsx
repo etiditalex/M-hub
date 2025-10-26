@@ -69,10 +69,10 @@ const Contact = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <h1 className="text-5xl md:text-6xl font-display font-bold mb-6">
+            <h1 className="text-4xl md:text-6xl font-display font-semibold mb-6">
               Get In <span className="gradient-text">Touch</span>
             </h1>
-            <p className="text-xl text-gray-400 max-w-3xl mx-auto">
+            <p className="text-lg text-gray-300 max-w-3xl mx-auto">
               Have a question or ready to start your project? We'd love to hear from
               you. Reach out and let's create something amazing together.
             </p>
