@@ -239,6 +239,187 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Fintech AI Solutions Section */}
+      <section className="section-padding bg-gradient-to-br from-dark-800 to-dark-900">
+        <div className="container-custom">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
+            className="text-center mb-16"
+          >
+            <h2 className="text-4xl md:text-5xl font-display font-bold mb-6">
+              Revolutionizing <span className="gradient-text">Kenya's Fintech Marketing</span>
+            </h2>
+            <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+              Kenya processes over $2 billion monthly in fintech transactions. Our AI platform solves the unique challenges marketers face in Africa's digital finance leader.
+            </p>
+          </motion.div>
+
+          <div className="grid md:grid-cols-3 gap-8 mb-16">
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.1 }}
+              viewport={{ once: true }}
+            >
+              <Card className="h-full text-center p-8 hover:scale-105 transition-transform">
+                <div className="w-16 h-16 mx-auto mb-6 bg-gradient-to-br from-primary-500 to-accent-500 rounded-2xl flex items-center justify-center">
+                  <TrendingUp className="w-8 h-8 text-white" />
+                </div>
+                <h3 className="text-2xl font-bold mb-4">45% Lower CAC</h3>
+                <p className="text-gray-400 mb-4">
+                  AI-powered predictive targeting reduces customer acquisition costs by an average of 45% for fintech companies
+                </p>
+                <Link to="/blog/fintech-marketing-challenges-kenya-ai-solutions" className="text-primary-400 hover:text-primary-300 inline-flex items-center gap-2">
+                  Learn More <ArrowRight className="w-4 h-4" />
+                </Link>
+              </Card>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+              viewport={{ once: true }}
+            >
+              <Card className="h-full text-center p-8 hover:scale-105 transition-transform">
+                <div className="w-16 h-16 mx-auto mb-6 bg-gradient-to-br from-accent-500 to-primary-600 rounded-2xl flex items-center justify-center">
+                  <Network className="w-8 h-8 text-white" />
+                </div>
+                <h3 className="text-2xl font-bold mb-4">Multi-Channel Attribution</h3>
+                <p className="text-gray-400 mb-4">
+                  Track the entire customer journey across M-Pesa, USSD, apps, social media, and SMS with AI-powered attribution
+                </p>
+                <Link to="/newsroom/kenya-fintech-2-billion-transactions" className="text-primary-400 hover:text-primary-300 inline-flex items-center gap-2">
+                  Read More <ArrowRight className="w-4 h-4" />
+                </Link>
+              </Card>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.3 }}
+              viewport={{ once: true }}
+            >
+              <Card className="h-full text-center p-8 hover:scale-105 transition-transform">
+                <div className="w-16 h-16 mx-auto mb-6 bg-gradient-to-br from-primary-600 to-accent-400 rounded-2xl flex items-center justify-center">
+                  <Check className="w-8 h-8 text-white" />
+                </div>
+                <h3 className="text-2xl font-bold mb-4">CBK Compliance</h3>
+                <p className="text-gray-400 mb-4">
+                  Automated compliance checking ensures all fintech marketing meets Central Bank of Kenya regulations
+                </p>
+                <Link to="/newsroom/mhub-fintech-ai-marketing-suite" className="text-primary-400 hover:text-primary-300 inline-flex items-center gap-2">
+                  Discover <ArrowRight className="w-4 h-4" />
+                </Link>
+              </Card>
+            </motion.div>
+          </div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
+          >
+            <Card className="p-8 md:p-12 bg-gradient-to-br from-primary-500/10 to-accent-500/10 border-primary-500/20">
+              <div className="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                  <h3 className="text-3xl font-bold mb-6">Kenya's Fintech Challenges</h3>
+                  <ul className="space-y-4 mb-8">
+                    <li className="flex items-start gap-3">
+                      <div className="w-6 h-6 bg-red-500/20 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                        <span className="text-red-400 text-sm">✗</span>
+                      </div>
+                      <div>
+                        <strong className="text-white">Market Saturation:</strong>
+                        <span className="text-gray-400"> 50+ fintechs competing, CAC increased 180% in 3 years</span>
+                      </div>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <div className="w-6 h-6 bg-red-500/20 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                        <span className="text-red-400 text-sm">✗</span>
+                      </div>
+                      <div>
+                        <strong className="text-white">Complex Attribution:</strong>
+                        <span className="text-gray-400"> Multi-channel journeys across mobile money, USSD, apps</span>
+                      </div>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <div className="w-6 h-6 bg-red-500/20 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                        <span className="text-red-400 text-sm">✗</span>
+                      </div>
+                      <div>
+                        <strong className="text-white">Data Fragmentation:</strong>
+                        <span className="text-gray-400"> Customer data siloed across M-Pesa, banks, CRMs, social</span>
+                      </div>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <div className="w-6 h-6 bg-red-500/20 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                        <span className="text-red-400 text-sm">✗</span>
+                      </div>
+                      <div>
+                        <strong className="text-white">Trust Deficit:</strong>
+                        <span className="text-gray-400"> Building trust quickly in a market with fraud concerns</span>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="text-3xl font-bold mb-6">M-Hub's AI Solutions</h3>
+                  <ul className="space-y-4 mb-8">
+                    <li className="flex items-start gap-3">
+                      <div className="w-6 h-6 bg-primary-500/20 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                        <Check className="w-4 h-4 text-primary-400" />
+                      </div>
+                      <div>
+                        <strong className="text-white">Predictive Targeting:</strong>
+                        <span className="text-gray-400"> AI identifies high-value prospects, reduces CAC 45%</span>
+                      </div>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <div className="w-6 h-6 bg-primary-500/20 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                        <Check className="w-4 h-4 text-primary-400" />
+                      </div>
+                      <div>
+                        <strong className="text-white">Smart Attribution:</strong>
+                        <span className="text-gray-400"> Track every touchpoint with ML-powered attribution engine</span>
+                      </div>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <div className="w-6 h-6 bg-primary-500/20 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                        <Check className="w-4 h-4 text-primary-400" />
+                      </div>
+                      <div>
+                        <strong className="text-white">Unified Data:</strong>
+                        <span className="text-gray-400"> Integrate M-Pesa APIs, banks, social—one customer view</span>
+                      </div>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <div className="w-6 h-6 bg-primary-500/20 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                        <Check className="w-4 h-4 text-primary-400" />
+                      </div>
+                      <div>
+                        <strong className="text-white">Trust AI:</strong>
+                        <span className="text-gray-400"> Personalized security messaging and social proof</span>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div className="text-center pt-8 border-t border-white/10">
+                <Link to="/blog/kenya-marketing-challenges-ai-solutions" className="btn-primary inline-flex items-center gap-2">
+                  See How It Works <ArrowRight className="w-4 h-4" />
+                </Link>
+              </div>
+            </Card>
+          </motion.div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="section-padding bg-gradient-to-r from-primary-600/20 to-accent-600/20">
         <div className="container-custom text-center">
