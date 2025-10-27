@@ -15,6 +15,7 @@ import DashboardProjects from './pages/DashboardProjects'
 import DashboardLeads from './pages/DashboardLeads'
 import DashboardAnalytics from './pages/DashboardAnalytics'
 import DashboardSettings from './pages/DashboardSettings'
+import PredictiveAnalytics from './pages/PredictiveAnalytics'
 import AskMHub from './pages/AskMHub'
 
 function App() {
@@ -41,6 +42,7 @@ function App() {
           <Route path="/dashboard/leads" element={<DashboardLeads />} />
           <Route path="/dashboard/analytics" element={<DashboardAnalytics />} />
           <Route path="/dashboard/settings" element={<DashboardSettings />} />
+          <Route path="/predictive-analytics" element={<PredictiveAnalytics />} />
           <Route path="/ask-mhub" element={<AskMHub />} />
         </Routes>
       </AnimatePresence>

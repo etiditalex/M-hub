@@ -13,6 +13,7 @@ import {
   User,
   Sparkles,
   LogOut,
+  Target,
 } from 'lucide-react'
 import { motion, AnimatePresence } from 'framer-motion'
 
@@ -30,6 +31,7 @@ const DashboardLayout = ({ children }: DashboardLayoutProps) => {
     { name: 'Projects', path: '/dashboard/projects', icon: FolderKanban },
     { name: 'Leads', path: '/dashboard/leads', icon: Users },
     { name: 'Analytics', path: '/dashboard/analytics', icon: BarChart3 },
+    { name: 'Predictive AI', path: '/predictive-analytics', icon: Target, highlight: true },
     { name: 'Settings', path: '/dashboard/settings', icon: Settings },
   ]
 
@@ -46,18 +48,27 @@ const DashboardLayout = ({ children }: DashboardLayoutProps) => {
           {navItems.map((item) => {
             const Icon = item.icon
             const isActive = location.pathname === item.path
+            const isHighlight = 'highlight' in item && item.highlight
             return (
               <Link
                 key={item.path}
                 to={item.path}
-                className={`flex items-center space-x-3 px-4 py-3 rounded-lg transition-all duration-300 ${
+                className={`flex items-center space-x-3 px-4 py-3 rounded-lg transition-all duration-300 relative group ${
                   isActive
                     ? 'bg-primary-500/20 text-primary-400 border border-primary-500/30'
+                    : isHighlight
+                    ? 'bg-gradient-to-r from-accent-500/10 to-primary-500/10 text-accent-400 border border-accent-500/30'
                     : 'text-gray-400 hover:bg-white/5 hover:text-white'
                 }`}
               >
                 <Icon className="w-5 h-5" />
                 <span className="font-medium">{item.name}</span>
+                {isHighlight && (
+                  <span className="absolute -top-1 -right-1 flex h-3 w-3">
+                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent-400 opacity-75"></span>
+                    <span className="relative inline-flex rounded-full h-3 w-3 bg-accent-500"></span>
+                  </span>
+                )}
               </Link>
             )
           })}
