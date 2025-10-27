@@ -356,6 +356,111 @@ Features with API:
 
 ---
 
+## 📊 Real-Time Analytics
+
+M-Hub includes **comprehensive analytics tracking** to monitor visitor behavior, device types, and user interactions in real-time!
+
+### ✅ Features:
+
+- **Google Analytics 4 Integration** - Real-time visitor tracking
+- **Device Detection** - Desktop, Mobile, Tablet analytics
+- **Location Tracking** - Country, region, city data
+- **Browser Insights** - Chrome, Firefox, Safari, Edge, etc.
+- **Custom Event Tracking** - Button clicks, form submissions, research mode usage
+- **Client-Side Fallback** - Basic metrics without GA4 setup
+- **Privacy-Focused** - No personal data stored locally
+
+### 📈 What's Tracked:
+
+| Metric | Description |
+|--------|-------------|
+| **Page Views** | Every route change and visit |
+| **User Sessions** | Unique and returning visitors |
+| **Device Type** | Mobile, Tablet, or Desktop |
+| **Screen Resolution** | Display dimensions |
+| **Referral Source** | How users found your site |
+| **Button Clicks** | CTA interactions |
+| **Form Submissions** | Contact and WhatsApp forms |
+| **Research Mode** | AI feature usage |
+| **Outbound Links** | External clicks |
+
+### 🔧 Setup (Optional):
+
+1. Create a **Google Analytics 4** property
+2. Get your **Measurement ID** (format: `G-XXXXXXXXXX`)
+3. Add it to `src/components/Analytics.tsx`:
+   ```typescript
+   const GA_MEASUREMENT_ID = 'G-YOUR-ID-HERE'
+   ```
+4. Deploy and view real-time data in GA4!
+
+📖 **Full Setup Guide**: [`docs/ANALYTICS_SETUP.md`](docs/ANALYTICS_SETUP.md)
+
+**Without GA4 Setup:**  
+Analytics still work using client-side tracking! Check browser console for visitor data.
+
+---
+
+## 🔍 SEO Optimization
+
+M-Hub is **fully optimized for search engines** with comprehensive meta tags, structured data, and Google-friendly architecture.
+
+### ✅ Implemented:
+
+| Feature | Status |
+|---------|--------|
+| **Meta Tags** | ✅ Title, description, keywords |
+| **Open Graph** | ✅ Facebook, Twitter cards |
+| **Structured Data** | ✅ Organization, Service schemas |
+| **Sitemap** | ✅ `sitemap.xml` (all pages) |
+| **Robots.txt** | ✅ Search engine directives |
+| **Mobile-Friendly** | ✅ Responsive design |
+| **Fast Loading** | ✅ Optimized Vite build |
+| **Canonical URLs** | ✅ Prevent duplicate content |
+
+### 📄 Pages Optimized:
+
+- ✅ **Home** - M-Hub - Digital Marketing & AI Solutions in Kenya
+- ✅ **Services** - Digital Marketing & Software Development
+- ✅ **Blog** - Digital Marketing Insights & AI Trends
+- ✅ **Newsroom** - Latest Updates & Industry Trends
+- ✅ **Contact** - Get in Touch with M-Hub
+
+### 🌐 Local SEO (Mombasa):
+
+```json
+{
+  "address": {
+    "streetAddress": "Along Links Road",
+    "addressLocality": "Nyali",
+    "addressRegion": "Mombasa",
+    "addressCountry": "KE"
+  }
+}
+```
+
+### 🎯 Target Keywords:
+
+- Digital Marketing Kenya
+- AI Marketing Automation
+- Fintech Solutions Kenya
+- Social Media Management Kenya
+- SEO Services Mombasa
+- M-Pesa Integration
+- Software Development Kenya
+- WhatsApp Business API Kenya
+
+### 🚀 Submit to Google:
+
+1. Go to [Google Search Console](https://search.google.com/search-console)
+2. Add property: `https://etiditalex.github.io/M-hub/`
+3. Verify ownership
+4. Submit sitemap: `https://etiditalex.github.io/M-hub/sitemap.xml`
+
+📖 **Full SEO Guide**: [`docs/SEO_GUIDE.md`](docs/SEO_GUIDE.md)
+
+---
+
 ## 📧 Contact
 
 For questions or support, reach out to:
