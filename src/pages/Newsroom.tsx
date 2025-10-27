@@ -18,6 +18,7 @@ import {
 } from 'lucide-react'
 import PageLayout from '../components/PageLayout'
 import Card from '../components/Card'
+import SEO from '../components/SEO'
 import newsroom from '../data/newsroom.json'
 import industryTrends from '../data/industryTrends.json'
 
@@ -95,6 +96,19 @@ const Newsroom = () => {
 
   return (
     <PageLayout>
+      <SEO
+        title="Newsroom - Latest Updates & Industry Trends | M-Hub"
+        description="Stay updated with M-Hub's latest news, industry updates, fintech trends in Kenya, and digital marketing announcements. Real-time industry insights."
+        keywords={[
+          'M-Hub news',
+          'Kenya fintech news',
+          'digital marketing updates',
+          'industry trends Kenya',
+          'business news Kenya',
+          'tech announcements',
+        ]}
+        url="https://etiditalex.github.io/M-hub/#/newsroom"
+      />
       {/* Hero Section */}
       <section className="pt-32 pb-20 section-padding">
         <div className="max-w-7xl mx-auto">

@@ -1,5 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { AnimatePresence } from 'framer-motion'
+import { useEffect } from 'react'
+import Analytics, { initializeLocalAnalytics } from './components/Analytics'
 import Home from './pages/Home'
 import Services from './pages/Services'
 import Blog from './pages/Blog'
@@ -16,8 +18,14 @@ import DashboardSettings from './pages/DashboardSettings'
 import AskMHub from './pages/AskMHub'
 
 function App() {
+  useEffect(() => {
+    // Initialize local analytics on app mount
+    initializeLocalAnalytics()
+  }, [])
+
   return (
     <Router basename="/M-hub">
+      <Analytics />
       <AnimatePresence mode="wait">
         <Routes>
           <Route path="/" element={<Home />} />

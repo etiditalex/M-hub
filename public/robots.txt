@@ -1,0 +1,25 @@
+# M-Hub Robots.txt
+# https://etiditalex.github.io/M-hub/
+
+User-agent: *
+Allow: /
+Disallow: /dist/
+Disallow: /node_modules/
+Disallow: /*.json$
+
+# Specific bot rules
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Crawl delay for respectful crawling
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://etiditalex.github.io/M-hub/sitemap.xml
+

@@ -4,6 +4,7 @@ import { TrendingUp, Code, Network, Check } from 'lucide-react'
 import PageLayout from '../components/PageLayout'
 import Card from '../components/Card'
 import WhatsAppContactForm from '../components/WhatsAppContactForm'
+import SEO from '../components/SEO'
 import servicesData from '../data/services.json'
 
 const Services = () => {
@@ -17,6 +18,21 @@ const Services = () => {
 
   return (
     <PageLayout>
+      <SEO
+        title="Our Services - Digital Marketing & Software Development | M-Hub"
+        description="Explore M-Hub's comprehensive digital marketing, AI automation, software development, and fintech integration services. Custom solutions for businesses in Kenya."
+        keywords={[
+          'digital marketing services Kenya',
+          'AI marketing automation',
+          'social media management',
+          'SEO optimization',
+          'custom software development',
+          'fintech solutions Kenya',
+          'M-Pesa integration services',
+          'WhatsApp Business API',
+        ]}
+        url="https://etiditalex.github.io/M-hub/#/services"
+      />
       {/* Hero Section */}
       <section className="pt-32 pb-20 section-padding">
         <div className="container-custom text-center">

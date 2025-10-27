@@ -7,6 +7,7 @@ import HeroScene from '../components/HeroScene'
 import SocialMediaDrive from '../components/SocialMediaDrive'
 import Card from '../components/Card'
 import WhatsAppContactForm from '../components/WhatsAppContactForm'
+import SEO from '../components/SEO'
 
 const Home = () => {
   const [isFormOpen, setIsFormOpen] = useState(false)
@@ -49,6 +50,23 @@ const Home = () => {
 
   return (
     <PageLayout>
+      <SEO
+        title="M-Hub - Digital Marketing & AI Solutions in Kenya"
+        description="Transform your business with M-Hub's AI-powered digital marketing, social media management, fintech integration, and custom software development services in Kenya."
+        keywords={[
+          'digital marketing Kenya',
+          'AI marketing automation',
+          'social media management Kenya',
+          'SEO services Mombasa',
+          'fintech marketing Kenya',
+          'M-Pesa integration',
+          'TikTok Shop Kenya',
+          'software development Kenya',
+          'WhatsApp Business API',
+          'web development Mombasa',
+        ]}
+        url="https://etiditalex.github.io/M-hub/"
+      />
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
         {/* 3D Background */}

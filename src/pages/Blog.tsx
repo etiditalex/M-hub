@@ -14,6 +14,7 @@ import {
 import PageLayout from '../components/PageLayout'
 import Card from '../components/Card'
 import Button from '../components/Button'
+import SEO from '../components/SEO'
 import blogPosts from '../data/blogPosts.json'
 
 const Blog = () => {
@@ -66,6 +67,19 @@ const Blog = () => {
 
   return (
     <PageLayout>
+      <SEO
+        title="Blog - Digital Marketing Insights & AI Trends | M-Hub"
+        description="Read M-Hub's latest blog posts on digital marketing, AI automation, fintech in Kenya, social media strategies, and business growth tips."
+        keywords={[
+          'digital marketing blog Kenya',
+          'AI marketing trends',
+          'fintech Kenya blog',
+          'social media marketing tips',
+          'business growth strategies',
+          'M-Hub blog',
+        ]}
+        url="https://etiditalex.github.io/M-hub/#/blog"
+      />
       {/* Hero Section */}
       <section className="pt-32 pb-20 section-padding">
         <div className="max-w-7xl mx-auto">

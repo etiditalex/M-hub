@@ -4,6 +4,7 @@ import { Mail, Phone, MapPin, Send, CheckCircle } from 'lucide-react'
 import PageLayout from '../components/PageLayout'
 import Card from '../components/Card'
 import Button from '../components/Button'
+import SEO from '../components/SEO'
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -61,6 +62,18 @@ const Contact = () => {
 
   return (
     <PageLayout>
+      <SEO
+        title="Contact Us - Get in Touch | M-Hub"
+        description="Contact M-Hub for digital marketing, AI solutions, and software development services. Located in Nyali, Mombasa. Call us at 0796988686 or 0780460617."
+        keywords={[
+          'contact M-Hub',
+          'digital marketing Mombasa',
+          'AI solutions Kenya',
+          'Nyali software development',
+          'business solutions Kenya',
+        ]}
+        url="https://etiditalex.github.io/M-hub/#/contact"
+      />
       {/* Hero Section */}
       <section className="pt-32 pb-20 section-padding">
         <div className="container-custom text-center">
