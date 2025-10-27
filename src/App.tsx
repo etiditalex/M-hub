@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { AnimatePresence } from 'framer-motion'
 import { useEffect } from 'react'
 import Analytics, { initializeLocalAnalytics } from './components/Analytics'
+import { useUserTracking } from './predictiveAI/hooks/usePredictiveAI'
 import Home from './pages/Home'
 import Services from './pages/Services'
 import Blog from './pages/Blog'
@@ -16,16 +17,15 @@ import DashboardLeads from './pages/DashboardLeads'
 import DashboardAnalytics from './pages/DashboardAnalytics'
 import DashboardSettings from './pages/DashboardSettings'
 import PredictiveAnalytics from './pages/PredictiveAnalytics'
+import AdminInsights from './pages/AdminInsights'
 import AskMHub from './pages/AskMHub'
 
-function App() {
-  useEffect(() => {
-    // Initialize local analytics on app mount
-    initializeLocalAnalytics()
-  }, [])
+function AppContent() {
+  // Enable automatic page view tracking
+  useUserTracking()
 
   return (
-    <Router basename="/M-hub">
+    <>
       <Analytics />
       <AnimatePresence mode="wait">
         <Routes>
@@ -43,9 +43,23 @@ function App() {
           <Route path="/dashboard/analytics" element={<DashboardAnalytics />} />
           <Route path="/dashboard/settings" element={<DashboardSettings />} />
           <Route path="/predictive-analytics" element={<PredictiveAnalytics />} />
+          <Route path="/admin/insights" element={<AdminInsights />} />
           <Route path="/ask-mhub" element={<AskMHub />} />
         </Routes>
       </AnimatePresence>
+    </>
+  )
+}
+
+function App() {
+  useEffect(() => {
+    // Initialize local analytics on app mount
+    initializeLocalAnalytics()
+  }, [])
+
+  return (
+    <Router basename="/M-hub">
+      <AppContent />
     </Router>
   )
 }

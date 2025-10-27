@@ -32,6 +32,7 @@ const DashboardLayout = ({ children }: DashboardLayoutProps) => {
     { name: 'Leads', path: '/dashboard/leads', icon: Users },
     { name: 'Analytics', path: '/dashboard/analytics', icon: BarChart3 },
     { name: 'Predictive AI', path: '/predictive-analytics', icon: Target, highlight: true },
+    { name: 'AI Insights', path: '/admin/insights', icon: Sparkles, highlight: true },
     { name: 'Settings', path: '/dashboard/settings', icon: Settings },
   ]
 
