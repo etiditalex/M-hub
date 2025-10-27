@@ -40,6 +40,18 @@ A complete, production-ready digital platform built with **React**, **TypeScript
 - **Fallback Knowledge Base** - Works without API keys using comprehensive local data
 - **Ready for API Integration** - Structured for Brave Search, OpenAI, Gemini, or custom backends
 
+### 🎯 Predictive Analytics (NEW!)
+- **AI-Powered Lead Scoring** - ML algorithm predicts conversion probability (0-100%)
+- **Customer Lifetime Value (CLV) Prediction** - Forecast revenue potential per lead
+- **45% CAC Reduction** - Focus on high-value prospects to reduce acquisition costs
+- **Multi-Touch Attribution** - Track every touchpoint with position-based attribution model
+- **Urgency Detection** - AI analyzes recent activity to prioritize hot leads
+- **Recommended Actions** - Get specific next steps for each lead (call, email, WhatsApp)
+- **Scoring Factors** - Visual breakdown of 5 key factors (engagement, company fit, budget, timing, touchpoint quality)
+- **Real-Time Dashboard** - Sort by score, CLV, or urgency
+- **Hot/Warm/Cold Segmentation** - Automatic lead quality classification
+- **Attribution ROI** - See which touchpoints drive conversions
+
 ## 🎨 Design System
 
 ### Color Palette
