@@ -52,6 +52,18 @@ A complete, production-ready digital platform built with **React**, **TypeScript
 - **Hot/Warm/Cold Segmentation** - Automatic lead quality classification
 - **Attribution ROI** - See which touchpoints drive conversions
 
+### 🧠 Predictive AI System (NEW!)
+- **Real-Time Behavior Tracking** - Captures user actions, clicks, page views, and interactions
+- **Intelligent Pattern Recognition** - ML-powered analysis learns from user behavior
+- **Live Predictions** - Next service interest, conversion likelihood, exit intent detection
+- **AI Recommendations Panel** - Floating panel with contextual suggestions and confidence scores
+- **Admin Insights Dashboard** - Comprehensive analytics with real-time charts and metrics
+- **Engagement Scoring** - Automatic calculation based on user activity quality
+- **Peak Activity Analysis** - Identifies optimal times for content and campaigns
+- **Privacy-First Design** - All data stored locally in browser, no external servers
+- **Session Management** - Automatic session tracking with 30-minute timeout
+- **Custom Hooks** - Easy integration with `usePredictions()`, `useEngagementMetrics()`
+
 ## 🎨 Design System
 
 ### Color Palette
