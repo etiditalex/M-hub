@@ -19,6 +19,10 @@ import DashboardSettings from './pages/DashboardSettings'
 import PredictiveAnalytics from './pages/PredictiveAnalytics'
 import AdminInsights from './pages/AdminInsights'
 import AskMHub from './pages/AskMHub'
+import MHubAI from './pages/MHubAI'
+import TextGenerator from './pages/TextGenerator'
+import ImageGenerator from './pages/ImageGenerator'
+import ThreeDStudio from './pages/ThreeDStudio'
 
 function AppContent() {
   // Enable automatic page view tracking
@@ -45,6 +49,10 @@ function AppContent() {
           <Route path="/predictive-analytics" element={<PredictiveAnalytics />} />
           <Route path="/admin/insights" element={<AdminInsights />} />
           <Route path="/ask-mhub" element={<AskMHub />} />
+          <Route path="/mhub-ai" element={<MHubAI />} />
+          <Route path="/mhub-ai/text" element={<TextGenerator />} />
+          <Route path="/mhub-ai/image" element={<ImageGenerator />} />
+          <Route path="/mhub-ai/3d" element={<ThreeDStudio />} />
         </Routes>
       </AnimatePresence>
     </>

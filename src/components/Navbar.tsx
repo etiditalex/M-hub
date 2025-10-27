@@ -19,6 +19,7 @@ const Navbar = () => {
   const navLinks = [
     { name: 'Home', path: '/' },
     { name: 'Services', path: '/services' },
+    { name: 'M-Hub AI', path: '/mhub-ai' },
     { name: 'Blog', path: '/blog' },
     { name: 'Newsroom', path: '/newsroom' },
     { name: 'About', path: '/about' },

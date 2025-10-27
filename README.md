@@ -64,6 +64,18 @@ A complete, production-ready digital platform built with **React**, **TypeScript
 - **Session Management** - Automatic session tracking with 30-minute timeout
 - **Custom Hooks** - Easy integration with `usePredictions()`, `useEngagementMetrics()`
 
+### 🎨 M-Hub AI - Generative AI Module (NEW!)
+- **AI Dashboard** - Central hub for all generative AI tools with 3D animated background
+- **Text Generator** - Create marketing content with 4 tone options (Professional, Friendly, Creative, Technical)
+- **Image Generator** - DALL-E powered image creation from text descriptions (256x256, 512x512, 1024x1024)
+- **3D Creative Studio** - Interactive WebGL canvas with 4 scene types (Orbs, Waves, Cubes, Abstract)
+- **Real-Time Controls** - Rotate, zoom, and pan 3D scenes with OrbitControls
+- **Export Functionality** - Download generated text, images, and screenshots
+- **Mock Data Fallbacks** - Works in dev mode without API keys
+- **OpenAI Integration** - Secure API calls via backend proxy (Vercel/Cloudflare)
+- **Neon Animations** - Beautiful loading states with Three.js-style spinners
+- **Example Prompts** - Built-in templates for quick content generation
+
 ## 🎨 Design System
 
 ### Color Palette
@@ -114,6 +126,35 @@ npm run build
 ```bash
 npm run deploy
 ```
+
+### M-Hub AI Setup (Optional)
+
+To enable the generative AI features:
+
+1. **Get OpenAI API Key**:
+   - Visit https://platform.openai.com/api-keys
+   - Create an account and generate an API key
+
+2. **Configure Environment**:
+```bash
+# Copy the example file
+cp env.example .env
+
+# Add your API key
+VITE_OPENAI_API_KEY=sk-your-key-here
+```
+
+3. **Set Up Backend Proxy** (for production):
+   - For GitHub Pages deployment, use Vercel, Cloudflare Workers, or Netlify Functions
+   - See `docs/MHUB_AI_SETUP.md` for detailed instructions
+
+4. **Access M-Hub AI**:
+   - Visit `/mhub-ai` for the AI dashboard
+   - Text Generator: `/mhub-ai/text`
+   - Image Generator: `/mhub-ai/image`
+   - 3D Studio: `/mhub-ai/3d`
+
+**Note**: The AI module includes mock data fallbacks, so it works in development mode without API keys.
 
 ## 📁 Project Structure
 
