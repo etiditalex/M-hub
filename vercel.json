@@ -1,6 +1,5 @@
 {
   "version": 2,
-  "name": "mhub-api",
   "builds": [
     {
       "src": "api/**/*.js",
@@ -12,9 +11,6 @@
       "src": "/api/(.*)",
       "dest": "/api/$1"
     }
-  ],
-  "env": {
-    "OPENAI_API_KEY": "@openai-api-key"
-  }
+  ]
 }
 
